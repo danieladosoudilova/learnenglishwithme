@@ -1,0 +1,27 @@
+{
+  "name": "Mum is learning English",
+  "short_name": "English",
+  "description": "Vocabulary and grammar practice for learning English.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF7F4",
+  "theme_color": "#F7C9D6",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "app%20icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app%20icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

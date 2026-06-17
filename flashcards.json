@@ -1,0 +1,3617 @@
+{
+  "Unit I": [
+    {
+      "word": "beard",
+      "ipa": "/bɪəd/",
+      "cs": "vousy"
+    },
+    {
+      "word": "black",
+      "ipa": "/blæk/",
+      "cs": "černý"
+    },
+    {
+      "word": "board games",
+      "ipa": "/ˈbɔːd ɡeɪmz/",
+      "cs": "deskové hry"
+    },
+    {
+      "word": "bowling",
+      "ipa": "/ˈbəʊlɪŋ/",
+      "cs": "bowling"
+    },
+    {
+      "word": "brown",
+      "ipa": "/braʊn/",
+      "cs": "hnědý"
+    },
+    {
+      "word": "canteen",
+      "ipa": "/kænˈtiːn/",
+      "cs": "jídelna"
+    },
+    {
+      "word": "chemistry",
+      "ipa": "/ˈkemɪstri/",
+      "cs": "chemie"
+    },
+    {
+      "word": "chess",
+      "ipa": "/tʃes/",
+      "cs": "šachy"
+    },
+    {
+      "word": "classroom",
+      "ipa": "/ˈklɑːsruːm/",
+      "cs": "třída"
+    },
+    {
+      "word": "coat",
+      "ipa": "/kəʊt/",
+      "cs": "kabát"
+    },
+    {
+      "word": "corridor",
+      "ipa": "/ˈkɒrɪdɔː(r)/",
+      "cs": "chodba"
+    },
+    {
+      "word": "curly",
+      "ipa": "/ˈkɜːli/",
+      "cs": "kudrnatý"
+    },
+    {
+      "word": "dance",
+      "ipa": "/dɑːns/",
+      "cs": "tanec"
+    },
+    {
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "cs": "tmavý"
+    },
+    {
+      "word": "desk",
+      "ipa": "/desk/",
+      "cs": "lavice"
+    },
+    {
+      "word": "drama",
+      "ipa": "/ˈdrɑːmə/",
+      "cs": "drama"
+    },
+    {
+      "word": "drawing",
+      "ipa": "/ˈdrɔːɪŋ/",
+      "cs": "kreslení"
+    },
+    {
+      "word": "fair",
+      "ipa": "/feə(r)/",
+      "cs": "plavý (vlasy)"
+    },
+    {
+      "word": "geography",
+      "ipa": "/dʒiˈɒɡrəfi/",
+      "cs": "zeměpis"
+    },
+    {
+      "word": "gym",
+      "ipa": "/dʒɪm/",
+      "cs": "tělocvična"
+    },
+    {
+      "word": "hair",
+      "ipa": "/heə(r)/",
+      "cs": "vlasy"
+    },
+    {
+      "word": "hall",
+      "ipa": "/hɔːl/",
+      "cs": "hala"
+    },
+    {
+      "word": "hat",
+      "ipa": "/hæt/",
+      "cs": "klobouk"
+    },
+    {
+      "word": "homework",
+      "ipa": "/ˈhəʊmwɜːk/",
+      "cs": "domácí úkol"
+    },
+    {
+      "word": "ice skating",
+      "ipa": "/ˈaɪs skeɪtɪŋ/",
+      "cs": "bruslení na ledě"
+    },
+    {
+      "word": "interactive whiteboard",
+      "ipa": "/ˌɪntərˈæktɪv ˈwaɪtbɔːd/",
+      "cs": "interaktivní tabule"
+    },
+    {
+      "word": "IT [information technology]",
+      "ipa": "/ˌaɪ ˈtiː/, /ˌɪnfəˈmeɪʃn tekˌnɒlədʒi/",
+      "cs": "informatika"
+    },
+    {
+      "word": "jacket",
+      "ipa": "/ˈdʒækɪt/",
+      "cs": "bunda"
+    },
+    {
+      "word": "jumper",
+      "ipa": "/ˈdʒʌmpə(r)/",
+      "cs": "svetr"
+    },
+    {
+      "word": "laptop",
+      "ipa": "/ˈlæptɒp/",
+      "cs": "laptop"
+    },
+    {
+      "word": "leggings",
+      "ipa": "/ˈleɡɪŋz/",
+      "cs": "legíny"
+    },
+    {
+      "word": "long",
+      "ipa": "/lɒŋ/",
+      "cs": "dlouhý"
+    },
+    {
+      "word": "moustache",
+      "ipa": "/məˈstɑːʃ/",
+      "cs": "knír"
+    },
+    {
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "cs": "hudba"
+    },
+    {
+      "word": "noticeboard",
+      "ipa": "/ˈnəʊtɪsbɔːd/",
+      "cs": "nástěnka"
+    },
+    {
+      "word": "PE [physical education]",
+      "ipa": "/ˌpiː ˈiː/, /ˈfɪzɪkl ˌedʒuˈkeɪʃn/",
+      "cs": "tělesná výchova"
+    },
+    {
+      "word": "picnic",
+      "ipa": "/ˈpɪknɪk/",
+      "cs": "piknik"
+    },
+    {
+      "word": "playing field",
+      "ipa": "/ˈpleɪɪŋ fiːld/",
+      "cs": "hřiště"
+    },
+    {
+      "word": "reception",
+      "ipa": "/rɪˈsepʃn/",
+      "cs": "recepce"
+    },
+    {
+      "word": "red",
+      "ipa": "/red/",
+      "cs": "červený"
+    },
+    {
+      "word": "shirt",
+      "ipa": "/ʃɜːt/",
+      "cs": "košile"
+    },
+    {
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "cs": "krátký"
+    },
+    {
+      "word": "skateboarding",
+      "ipa": "/ˈskeɪtbɔːdɪŋ/",
+      "cs": "jízda na skateboardu"
+    },
+    {
+      "word": "staff room",
+      "ipa": "/ˈstɑːfruːm/",
+      "cs": "sborovna"
+    },
+    {
+      "word": "straight",
+      "ipa": "/streɪt/",
+      "cs": "rovné (vlasy)"
+    },
+    {
+      "word": "sweatshirt",
+      "ipa": "/ˈswetʃɜːt/",
+      "cs": "mikina"
+    },
+    {
+      "word": "textbook",
+      "ipa": "/ˈtekstbʊk/",
+      "cs": "učebnice"
+    },
+    {
+      "word": "tie",
+      "ipa": "/taɪ/",
+      "cs": "kravata"
+    },
+    {
+      "word": "trousers",
+      "ipa": "/ˈtraʊzəz/",
+      "cs": "kalhoty"
+    },
+    {
+      "word": "video games",
+      "ipa": "/ˈvɪdiəʊ ɡeɪmz/",
+      "cs": "videohry"
+    },
+    {
+      "word": "walk",
+      "ipa": "/wɔːk/",
+      "cs": "procházka"
+    },
+    {
+      "word": "wavy",
+      "ipa": "/ˈweɪvi/",
+      "cs": "vlnité (vlasy)"
+    },
+    {
+      "word": "whiteboard",
+      "ipa": "/ˈwaɪtbɔːd/",
+      "cs": "tabule"
+    }
+  ],
+  "Unit 1": [
+    {
+      "word": "a bit",
+      "ipa": "/ə bɪt/",
+      "cs": "trochu"
+    },
+    {
+      "word": "a little bit",
+      "ipa": "/ə ˈlɪtl bɪt/",
+      "cs": "trošku"
+    },
+    {
+      "word": "annoyed",
+      "ipa": "/əˈnɔɪd/",
+      "cs": "naštvaný"
+    },
+    {
+      "word": "annoying",
+      "ipa": "/əˈnɔɪɪŋ/",
+      "cs": "dotěrný"
+    },
+    {
+      "word": "anxious",
+      "ipa": "/ˈæŋkʃəs/",
+      "cs": "úzkostný"
+    },
+    {
+      "word": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "cs": "zahanbený"
+    },
+    {
+      "word": "ask for",
+      "ipa": "/ɑːsk fə/",
+      "cs": "požádat o"
+    },
+    {
+      "word": "bleed",
+      "ipa": "/bliːd/",
+      "cs": "krvácet"
+    },
+    {
+      "word": "blood",
+      "ipa": "/blʌd/",
+      "cs": "krev"
+    },
+    {
+      "word": "bored",
+      "ipa": "/bɔːd/",
+      "cs": "znuděný"
+    },
+    {
+      "word": "boring",
+      "ipa": "/ˈbɔːrɪŋ/",
+      "cs": "nudný"
+    },
+    {
+      "word": "break (your arm)",
+      "ipa": "/breɪk/",
+      "cs": "zlomit si ruku"
+    },
+    {
+      "word": "broken (arm)",
+      "ipa": "/ˈbrəʊkən/",
+      "cs": "zlomená (ruka)"
+    },
+    {
+      "word": "bruise",
+      "ipa": "/bruːz/",
+      "cs": "modřina / pohmoždit"
+    },
+    {
+      "word": "burn",
+      "ipa": "/bɜːn/",
+      "cs": "popálit (se)"
+    },
+    {
+      "word": "confused",
+      "ipa": "/kənˈfjuːzd/",
+      "cs": "zmatený"
+    },
+    {
+      "word": "confusing",
+      "ipa": "/kənˈfjuːzɪŋ/",
+      "cs": "matoucí"
+    },
+    {
+      "word": "cross",
+      "ipa": "/krɒs/",
+      "cs": "rozzlobený"
+    },
+    {
+      "word": "cut",
+      "ipa": "/kʌt/",
+      "cs": "řízná rána / pořezat (se)"
+    },
+    {
+      "word": "delighted",
+      "ipa": "/dɪˈlaɪtɪd/",
+      "cs": "potěšený"
+    },
+    {
+      "word": "disappointed",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "cs": "zklamaný"
+    },
+    {
+      "word": "disgusted",
+      "ipa": "/dɪsˈɡʌstɪd/",
+      "cs": "znechucený"
+    },
+    {
+      "word": "disgusting",
+      "ipa": "/dɪsˈɡʌstɪŋ/",
+      "cs": "odporný"
+    },
+    {
+      "word": "embarrassed",
+      "ipa": "/ɪmˈbærəst/",
+      "cs": "v rozpacích"
+    },
+    {
+      "word": "embarrassing",
+      "ipa": "/ɪmˈbærəsɪŋ/",
+      "cs": "zahanbující"
+    },
+    {
+      "word": "envious",
+      "ipa": "/ˈenviəs/",
+      "cs": "žárlivý"
+    },
+    {
+      "word": "excited",
+      "ipa": "/ɪkˈsaɪtɪd/",
+      "cs": "nadšený"
+    },
+    {
+      "word": "exhausted",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "cs": "vyčerpaný"
+    },
+    {
+      "word": "exhausting",
+      "ipa": "/ɪɡˈzɔːstɪŋ/",
+      "cs": "vyčerpávající"
+    },
+    {
+      "word": "extremely",
+      "ipa": "/ɪkˈstriːmli/",
+      "cs": "extrémně"
+    },
+    {
+      "word": "fall (over)",
+      "ipa": "/fɔːl/",
+      "cs": "upadnout"
+    },
+    {
+      "word": "find out",
+      "ipa": "/faɪnd aʊt/",
+      "cs": "zjistit"
+    },
+    {
+      "word": "frightened",
+      "ipa": "/ˈfraɪtnd/",
+      "cs": "vystrašený"
+    },
+    {
+      "word": "frightening",
+      "ipa": "/ˈfraɪtnɪŋ/",
+      "cs": "děsivý"
+    },
+    {
+      "word": "get over",
+      "ipa": "/ɡet ˈəʊvə(r)/",
+      "cs": "překonat (něco)"
+    },
+    {
+      "word": "hurt",
+      "ipa": "/hɜːt/",
+      "cs": "ublížit / bolet"
+    },
+    {
+      "word": "injure (yourself)",
+      "ipa": "/ˈɪndʒə(r)/",
+      "cs": "zranit se"
+    },
+    {
+      "word": "injury",
+      "ipa": "/ˈɪndʒəri/",
+      "cs": "zranění"
+    },
+    {
+      "word": "interested",
+      "ipa": "/ˈɪntrəstɪd/",
+      "cs": "zaujatý"
+    },
+    {
+      "word": "interesting",
+      "ipa": "/ˈɪntrəstɪŋ/",
+      "cs": "zajímavý"
+    },
+    {
+      "word": "look at",
+      "ipa": "/lʊk æt/",
+      "cs": "dívat se na"
+    },
+    {
+      "word": "own up",
+      "ipa": "/əʊn ʌp/",
+      "cs": "přiznat se"
+    },
+    {
+      "word": "pain",
+      "ipa": "/peɪn/",
+      "cs": "bolest"
+    },
+    {
+      "word": "proud",
+      "ipa": "/praʊd/",
+      "cs": "hrdý"
+    },
+    {
+      "word": "put back",
+      "ipa": "/pʊt bæk/",
+      "cs": "vrátit zpět"
+    },
+    {
+      "word": "rather",
+      "ipa": "/ˈrɑːðə(r)/",
+      "cs": "poněkud"
+    },
+    {
+      "word": "relieved",
+      "ipa": "/rɪˈliːvd/",
+      "cs": "s pocitem úlevy"
+    },
+    {
+      "word": "satisfied",
+      "ipa": "/ˈsætɪsfaɪd/",
+      "cs": "spokojený"
+    },
+    {
+      "word": "satisfying",
+      "ipa": "/ˈsætɪsfaɪɪŋ/",
+      "cs": "uspokojivý"
+    },
+    {
+      "word": "shocked",
+      "ipa": "/ʃɒkt/",
+      "cs": "šokovaný"
+    },
+    {
+      "word": "shocking",
+      "ipa": "/ˈʃɒkɪŋ/",
+      "cs": "šokující"
+    },
+    {
+      "word": "slip (over)",
+      "ipa": "/slɪp/",
+      "cs": "uklouznout"
+    },
+    {
+      "word": "sprain",
+      "ipa": "/spreɪn/",
+      "cs": "vyvrtnutí / vyvrtnout si"
+    },
+    {
+      "word": "surprised",
+      "ipa": "/səˈpraɪzd/",
+      "cs": "překvapený"
+    },
+    {
+      "word": "surprising",
+      "ipa": "/səˈpraɪzɪŋ/",
+      "cs": "překvapivý"
+    },
+    {
+      "word": "suspicious",
+      "ipa": "/səˈspɪʃəs/",
+      "cs": "podezřívavý"
+    },
+    {
+      "word": "talk about",
+      "ipa": "/ˈtɔːk əˌbaʊt/",
+      "cs": "mluvit o"
+    },
+    {
+      "word": "tired",
+      "ipa": "/ˈtaɪəd/",
+      "cs": "unavený"
+    },
+    {
+      "word": "tiring",
+      "ipa": "/ˈtaɪərɪŋ/",
+      "cs": "únavný"
+    },
+    {
+      "word": "trip (over)",
+      "ipa": "/trɪp/",
+      "cs": "zakopnout"
+    },
+    {
+      "word": "upset",
+      "ipa": "/ʌpˈset/",
+      "cs": "rozrušený"
+    },
+    {
+      "word": "very",
+      "ipa": "/ˈveri/",
+      "cs": "velmi"
+    },
+    {
+      "word": "worried",
+      "ipa": "/ˈwʌrid/",
+      "cs": "ustaraný"
+    },
+    {
+      "word": "worrying",
+      "ipa": "/ˈwʌriɪŋ/",
+      "cs": "znepokojující"
+    }
+  ],
+  "Unit 2": [
+    {
+      "word": "accomplish",
+      "ipa": "/əˈkʌmplɪʃ/",
+      "cs": "dosáhnout"
+    },
+    {
+      "word": "accomplishment",
+      "ipa": "/əˈkʌmplɪʃmənt/",
+      "cs": "dosažení"
+    },
+    {
+      "word": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "cs": "dosáhnout"
+    },
+    {
+      "word": "achievement",
+      "ipa": "/əˈtʃiːvmənt/",
+      "cs": "úspěch"
+    },
+    {
+      "word": "across",
+      "ipa": "/əˈkrɒs/",
+      "cs": "přes"
+    },
+    {
+      "word": "along",
+      "ipa": "/əˈlɒŋ/",
+      "cs": "podél"
+    },
+    {
+      "word": "astonishing",
+      "ipa": "/əˈstɒnɪʃɪŋ/",
+      "cs": "ohromující"
+    },
+    {
+      "word": "athletic",
+      "ipa": "/æθˈletɪk/",
+      "cs": "atletický"
+    },
+    {
+      "word": "attempt",
+      "ipa": "/əˈtempt/",
+      "cs": "pokus / pokusit se"
+    },
+    {
+      "word": "awful",
+      "ipa": "/ˈɔːfl/",
+      "cs": "strašný"
+    },
+    {
+      "word": "behind",
+      "ipa": "/bɪˈhaɪnd/",
+      "cs": "za"
+    },
+    {
+      "word": "beside",
+      "ipa": "/bɪˈsaɪd/",
+      "cs": "vedle"
+    },
+    {
+      "word": "boots",
+      "ipa": "/buːts/",
+      "cs": "boty"
+    },
+    {
+      "word": "brave",
+      "ipa": "/breɪv/",
+      "cs": "odvážný"
+    },
+    {
+      "word": "brilliant",
+      "ipa": "/ˈbrɪliənt/",
+      "cs": "skvělý"
+    },
+    {
+      "word": "cave",
+      "ipa": "/keɪv/",
+      "cs": "jeskyně"
+    },
+    {
+      "word": "cliff",
+      "ipa": "/klɪf/",
+      "cs": "útes"
+    },
+    {
+      "word": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "cs": "dokončit"
+    },
+    {
+      "word": "completion",
+      "ipa": "/kəmˈpliːʃn/",
+      "cs": "dokončení"
+    },
+    {
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "cs": "temný"
+    },
+    {
+      "word": "deep",
+      "ipa": "/diːp/",
+      "cs": "hluboký"
+    },
+    {
+      "word": "delicious",
+      "ipa": "/dɪˈlɪʃəs/",
+      "cs": "výborný"
+    },
+    {
+      "word": "desert",
+      "ipa": "/ˈdezət/",
+      "cs": "poušť"
+    },
+    {
+      "word": "develop",
+      "ipa": "/dɪˈveləp/",
+      "cs": "rozvíjet (se)"
+    },
+    {
+      "word": "development",
+      "ipa": "/dɪˈveləpmənt/",
+      "cs": "rozvoj"
+    },
+    {
+      "word": "dinghy",
+      "ipa": "/ˈdɪŋɡi/, /ˈdɪŋi/",
+      "cs": "člun"
+    },
+    {
+      "word": "down",
+      "ipa": "/daʊn/",
+      "cs": "dolů"
+    },
+    {
+      "word": "dream",
+      "ipa": "/driːm/",
+      "cs": "sen / snít"
+    },
+    {
+      "word": "employ",
+      "ipa": "/ɪmˈplɔɪ/",
+      "cs": "zaměstnat"
+    },
+    {
+      "word": "employment",
+      "ipa": "/ɪmˈplɔɪmənt/",
+      "cs": "zaměstnání"
+    },
+    {
+      "word": "entertain",
+      "ipa": "/ˌentəˈteɪn/",
+      "cs": "bavit"
+    },
+    {
+      "word": "entertainment",
+      "ipa": "/ˌentəˈteɪnmənt/",
+      "cs": "zábava"
+    },
+    {
+      "word": "erupt",
+      "ipa": "/ɪˈrʌpt/",
+      "cs": "vybuchnout"
+    },
+    {
+      "word": "eruption",
+      "ipa": "/ɪˈrʌpʃn/",
+      "cs": "výbuch"
+    },
+    {
+      "word": "examination",
+      "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+      "cs": "zkouška"
+    },
+    {
+      "word": "examine",
+      "ipa": "/ɪɡˈzæmɪn/",
+      "cs": "zkoumat"
+    },
+    {
+      "word": "experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "cs": "zkušenost / zažít"
+    },
+    {
+      "word": "exploration",
+      "ipa": "/ˌekspləˈreɪʃn/",
+      "cs": "průzkum"
+    },
+    {
+      "word": "explore",
+      "ipa": "/ɪkˈsplɔː(r)/",
+      "cs": "zkoumat"
+    },
+    {
+      "word": "fantastic",
+      "ipa": "/fænˈtæstɪk/",
+      "cs": "fantastický"
+    },
+    {
+      "word": "filthy",
+      "ipa": "/ˈfɪlθi/",
+      "cs": "zablácený"
+    },
+    {
+      "word": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "cs": "les"
+    },
+    {
+      "word": "helmet",
+      "ipa": "/ˈhelmɪt/",
+      "cs": "helma"
+    },
+    {
+      "word": "hill",
+      "ipa": "/hɪl/",
+      "cs": "kopec"
+    },
+    {
+      "word": "huge",
+      "ipa": "/hjuːdʒ/",
+      "cs": "obrovský"
+    },
+    {
+      "word": "icy",
+      "ipa": "/ˈaɪsi/",
+      "cs": "ledový"
+    },
+    {
+      "word": "imagination",
+      "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+      "cs": "představivost"
+    },
+    {
+      "word": "imagine",
+      "ipa": "/ɪˈmædʒɪn/",
+      "cs": "představit si"
+    },
+    {
+      "word": "impressive",
+      "ipa": "/ɪmˈpresɪv/",
+      "cs": "působivý"
+    },
+    {
+      "word": "inside",
+      "ipa": "/ˌɪnˈsaɪd/",
+      "cs": "uvnitř"
+    },
+    {
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "cs": "jezero"
+    },
+    {
+      "word": "life jacket",
+      "ipa": "/ˈlaɪf dʒækɪt/",
+      "cs": "záchranná vesta"
+    },
+    {
+      "word": "low",
+      "ipa": "/ləʊ/",
+      "cs": "nízký"
+    },
+    {
+      "word": "motivate",
+      "ipa": "/ˈməʊtɪveɪt/",
+      "cs": "motivovat"
+    },
+    {
+      "word": "motivation",
+      "ipa": "/ˌməʊtɪˈveɪʃn/",
+      "cs": "motivace"
+    },
+    {
+      "word": "mountain",
+      "ipa": "/ˈmaʊntən/",
+      "cs": "hora"
+    },
+    {
+      "word": "narrow",
+      "ipa": "/ˈnærəʊ/",
+      "cs": "úzký"
+    },
+    {
+      "word": "near",
+      "ipa": "/nɪə(r)/",
+      "cs": "blízko"
+    },
+    {
+      "word": "need",
+      "ipa": "/niːd/",
+      "cs": "potřeba / potřebovat"
+    },
+    {
+      "word": "ocean",
+      "ipa": "/ˈəʊʃn/",
+      "cs": "oceán"
+    },
+    {
+      "word": "paddles",
+      "ipa": "/ˈpædlz/",
+      "cs": "pádla"
+    },
+    {
+      "word": "poles",
+      "ipa": "/pəʊlz/",
+      "cs": "tyče"
+    },
+    {
+      "word": "preparation",
+      "ipa": "/ˌprepəˈreɪʃn/",
+      "cs": "příprava"
+    },
+    {
+      "word": "prepare",
+      "ipa": "/prɪˈpeə(r)/",
+      "cs": "připravit (se)"
+    },
+    {
+      "word": "relax",
+      "ipa": "/rɪˈlæks/",
+      "cs": "odpočívat"
+    },
+    {
+      "word": "relaxation",
+      "ipa": "/ˌriːlækˈseɪʃn/",
+      "cs": "odpočinek"
+    },
+    {
+      "word": "remote",
+      "ipa": "/rɪˈməʊt/",
+      "cs": "vzdálený"
+    },
+    {
+      "word": "rescue",
+      "ipa": "/ˈreskjuː/",
+      "cs": "záchrana / zachránit"
+    },
+    {
+      "word": "risk",
+      "ipa": "/rɪsk/",
+      "cs": "riziko / riskovat"
+    },
+    {
+      "word": "risky",
+      "ipa": "/ˈrɪski/",
+      "cs": "riskantní"
+    },
+    {
+      "word": "river",
+      "ipa": "/ˈrɪvə(r)/",
+      "cs": "řeka"
+    },
+    {
+      "word": "rocks",
+      "ipa": "/rɒks/",
+      "cs": "skály"
+    },
+    {
+      "word": "rocky",
+      "ipa": "/ˈrɒki/",
+      "cs": "skalnatý"
+    },
+    {
+      "word": "rope",
+      "ipa": "/rəʊp/",
+      "cs": "lano"
+    },
+    {
+      "word": "rucksack",
+      "ipa": "/ˈrʌksæk/",
+      "cs": "batoh"
+    },
+    {
+      "word": "safety harness",
+      "ipa": "/ˈseɪfti ˈhɑːnɪs/",
+      "cs": "bezpečnostní postroj"
+    },
+    {
+      "word": "shallow",
+      "ipa": "/ˈʃæləʊ/",
+      "cs": "mělký"
+    },
+    {
+      "word": "shore",
+      "ipa": "/ʃɔː(r)/",
+      "cs": "břeh"
+    },
+    {
+      "word": "spectacular",
+      "ipa": "/spekˈtækjələ(r)/",
+      "cs": "velkolepý"
+    },
+    {
+      "word": "starving",
+      "ipa": "/stɑːvɪŋ/",
+      "cs": "vyhládlý"
+    },
+    {
+      "word": "steep",
+      "ipa": "/stiːp/",
+      "cs": "strmý"
+    },
+    {
+      "word": "stream",
+      "ipa": "/striːm/",
+      "cs": "potok"
+    },
+    {
+      "word": "strong",
+      "ipa": "/strɒŋ/",
+      "cs": "silný"
+    },
+    {
+      "word": "stunning",
+      "ipa": "/ˈstʌnɪŋ/",
+      "cs": "ohromující"
+    },
+    {
+      "word": "swimming trunks",
+      "ipa": "/ˈswɪmɪŋ trʌŋks/",
+      "cs": "plavky"
+    },
+    {
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "cs": "vysoký"
+    },
+    {
+      "word": "terrifying",
+      "ipa": "/ˈterɪfaɪɪŋ/",
+      "cs": "děsivý"
+    },
+    {
+      "word": "thrilling",
+      "ipa": "/ˈθrɪlɪŋ/",
+      "cs": "vzrušující"
+    },
+    {
+      "word": "through",
+      "ipa": "/θruː/",
+      "cs": "přes / skrz"
+    },
+    {
+      "word": "tiny",
+      "ipa": "/ˈtaɪni/",
+      "cs": "drobný"
+    },
+    {
+      "word": "tragic",
+      "ipa": "/ˈtrædʒɪk/",
+      "cs": "tragický"
+    },
+    {
+      "word": "under",
+      "ipa": "/ˈʌndə(r)/",
+      "cs": "pod"
+    },
+    {
+      "word": "valley",
+      "ipa": "/ˈvæli/",
+      "cs": "údolí"
+    },
+    {
+      "word": "volcano",
+      "ipa": "/vɒlˈkeɪnəʊ/",
+      "cs": "sopka"
+    },
+    {
+      "word": "waterfall",
+      "ipa": "/ˈwɔːtəfɔːl/",
+      "cs": "vodopád"
+    },
+    {
+      "word": "wide",
+      "ipa": "/waɪd/",
+      "cs": "široký"
+    }
+  ],
+  "Unit 3": [
+    {
+      "word": "acceptable",
+      "ipa": "/əkˈseptəbl/",
+      "cs": "přijatelný"
+    },
+    {
+      "word": "acting",
+      "ipa": "/ˈæktɪŋ/",
+      "cs": "herectví"
+    },
+    {
+      "word": "action film",
+      "ipa": "/ˈækʃn fɪlm/",
+      "cs": "akční film"
+    },
+    {
+      "word": "animation",
+      "ipa": "/ˌænɪˈmeɪʃn/",
+      "cs": "animovaný film"
+    },
+    {
+      "word": "appropriate",
+      "ipa": "/əˈprəʊpriət/",
+      "cs": "vhodný"
+    },
+    {
+      "word": "assume",
+      "ipa": "/əˈsjuːm/",
+      "cs": "předpokládat"
+    },
+    {
+      "word": "certain",
+      "ipa": "/ˈsɜːtn/",
+      "cs": "jistý"
+    },
+    {
+      "word": "characters",
+      "ipa": "/ˈkærəktəz/",
+      "cs": "postavy"
+    },
+    {
+      "word": "chat show",
+      "ipa": "/ˈtʃæt ʃəʊ/",
+      "cs": "talk show"
+    },
+    {
+      "word": "comedy",
+      "ipa": "/ˈkɒmədi/",
+      "cs": "komedie"
+    },
+    {
+      "word": "convincing",
+      "ipa": "/kənˈvɪnsɪŋ/",
+      "cs": "přesvědčivý"
+    },
+    {
+      "word": "co-operate",
+      "ipa": "/kəʊˈɒpəreɪt/",
+      "cs": "spolupracovat"
+    },
+    {
+      "word": "deny",
+      "ipa": "/dɪˈnaɪ/",
+      "cs": "popřít"
+    },
+    {
+      "word": "dependent",
+      "ipa": "/dɪˈpendənt/",
+      "cs": "závislý"
+    },
+    {
+      "word": "dishonest",
+      "ipa": "/dɪsˈɒnɪst/",
+      "cs": "nečestný"
+    },
+    {
+      "word": "documentary",
+      "ipa": "/ˌdɒkjuˈmentri/",
+      "cs": "dokument"
+    },
+    {
+      "word": "emphasise",
+      "ipa": "/ˈemfəsaɪz/",
+      "cs": "zdůraznit"
+    },
+    {
+      "word": "ending",
+      "ipa": "/ˈendɪŋ/",
+      "cs": "konec"
+    },
+    {
+      "word": "fair",
+      "ipa": "/feə(r)/",
+      "cs": "spravedlivý"
+    },
+    {
+      "word": "fantasy film",
+      "ipa": "/ˈfæntəsi fɪlm/",
+      "cs": "fantasy film"
+    },
+    {
+      "word": "funny",
+      "ipa": "/ˈfʌni/",
+      "cs": "vtipný"
+    },
+    {
+      "word": "game show",
+      "ipa": "/ˈɡeɪm ʃəʊ/",
+      "cs": "herní show"
+    },
+    {
+      "word": "go for sth",
+      "ipa": "/ˈɡəʊ fɔː(r) /",
+      "cs": "rozhodnout se pro něco"
+    },
+    {
+      "word": "gripping",
+      "ipa": "/ˈɡrɪpɪŋ/",
+      "cs": "strhující"
+    },
+    {
+      "word": "honest",
+      "ipa": "/ˈɒnɪst/",
+      "cs": "čestný"
+    },
+    {
+      "word": "horror film",
+      "ipa": "/ˈhɒrə(r) fɪlm/",
+      "cs": "horor"
+    },
+    {
+      "word": "illegal",
+      "ipa": "/ɪˈliːɡl/",
+      "cs": "nelegální"
+    },
+    {
+      "word": "imaginative",
+      "ipa": "/ɪˈmædʒɪnətɪv/",
+      "cs": "nápaditý"
+    },
+    {
+      "word": "impatient",
+      "ipa": "/ɪmˈpeɪʃnt/",
+      "cs": "netrpělivý"
+    },
+    {
+      "word": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "cs": "zlepšit (se)"
+    },
+    {
+      "word": "inappropriate",
+      "ipa": "/ˌɪnəˈprəʊpriət/",
+      "cs": "nevhodný"
+    },
+    {
+      "word": "increase",
+      "ipa": "/ɪnˈkriːs/",
+      "cs": "zvýšit (se)"
+    },
+    {
+      "word": "independent",
+      "ipa": "/ˌɪndɪˈpendənt/",
+      "cs": "nezávislý"
+    },
+    {
+      "word": "invisible",
+      "ipa": "/ɪnˈvɪzəbl/",
+      "cs": "neviditelný"
+    },
+    {
+      "word": "irresponsible",
+      "ipa": "/ˌɪrɪˈspɒnsəbl/",
+      "cs": "nezodpovědný"
+    },
+    {
+      "word": "keen on something",
+      "ipa": "/ˈkiːn ɒn ˌsʌmθɪŋ/",
+      "cs": "nadšený pro něco"
+    },
+    {
+      "word": "lead",
+      "ipa": "/liːd/",
+      "cs": "vést"
+    },
+    {
+      "word": "legal",
+      "ipa": "/ˈliːɡl/",
+      "cs": "legální"
+    },
+    {
+      "word": "likely",
+      "ipa": "/ˈlaɪkli/",
+      "cs": "pravděpodobný"
+    },
+    {
+      "word": "moving",
+      "ipa": "/ˈmuːvɪŋ/",
+      "cs": "dojemný"
+    },
+    {
+      "word": "musical",
+      "ipa": "/ˈmjuːzɪkl/",
+      "cs": "muzikál"
+    },
+    {
+      "word": "news bulletin",
+      "ipa": "/njuːz ˈbʊlətɪn/",
+      "cs": "zpravodajský blok"
+    },
+    {
+      "word": "participate",
+      "ipa": "/pɑːˈtɪsɪpeɪt/",
+      "cs": "účastnit se"
+    },
+    {
+      "word": "patient",
+      "ipa": "/ˈpeɪʃnt/",
+      "cs": "trpělivý"
+    },
+    {
+      "word": "period drama",
+      "ipa": "/ˈpɪəriəd ˈdrɑːmə/",
+      "cs": "kostýmní drama"
+    },
+    {
+      "word": "plot",
+      "ipa": "/plɒt/",
+      "cs": "zápletka"
+    },
+    {
+      "word": "prevent",
+      "ipa": "/prɪˈvent/",
+      "cs": "zabránit"
+    },
+    {
+      "word": "provide",
+      "ipa": "/prəˈvaɪd/",
+      "cs": "poskytnout"
+    },
+    {
+      "word": "reality show",
+      "ipa": "/riˈæləti ʃəʊ/",
+      "cs": "reality show"
+    },
+    {
+      "word": "responsible",
+      "ipa": "/rɪˈspɒnsəbl/",
+      "cs": "odpovědný"
+    },
+    {
+      "word": "reveal",
+      "ipa": "/rɪˈviːl/",
+      "cs": "odhalit"
+    },
+    {
+      "word": "romantic comedy",
+      "ipa": "/rəʊˈmæntɪk ˈkɒmədi/",
+      "cs": "romantická komedie"
+    },
+    {
+      "word": "scary",
+      "ipa": "/ˈskeəri/",
+      "cs": "strašidelný"
+    },
+    {
+      "word": "scenes",
+      "ipa": "/siːnz/",
+      "cs": "scény"
+    },
+    {
+      "word": "science fiction film",
+      "ipa": "/ˈsaɪəns ˈfɪkʃn fɪlm/",
+      "cs": "sci-fi film"
+    },
+    {
+      "word": "script",
+      "ipa": "/skrɪpt/",
+      "cs": "scénář"
+    },
+    {
+      "word": "sitcom",
+      "ipa": "/ˈsɪtkɒm/",
+      "cs": "sitkom"
+    },
+    {
+      "word": "soap",
+      "ipa": "/səʊp/",
+      "cs": "telenovela"
+    },
+    {
+      "word": "soundtrack",
+      "ipa": "/ˈsaʊndtræk/",
+      "cs": "filmová hudba"
+    },
+    {
+      "word": "special effects",
+      "ipa": "/ˌspeʃl ɪˈfekts/",
+      "cs": "speciální efekty"
+    },
+    {
+      "word": "talent show",
+      "ipa": "/ˈtælənt ʃəʊ/",
+      "cs": "talentová soutěž"
+    },
+    {
+      "word": "thriller",
+      "ipa": "/ˈθrɪlə(r)/",
+      "cs": "thriller"
+    },
+    {
+      "word": "unacceptable",
+      "ipa": "/ˌʌnəkˈseptəbl/",
+      "cs": "nepřijatelný"
+    },
+    {
+      "word": "uncertain",
+      "ipa": "/ʌnˈsɜːtn/",
+      "cs": "nejistý"
+    },
+    {
+      "word": "unfair",
+      "ipa": "/ˌʌnˈfeə(r)/",
+      "cs": "nespravedlivý"
+    },
+    {
+      "word": "unlikely",
+      "ipa": "/ʌnˈlaɪkli/",
+      "cs": "nepravděpodobný"
+    },
+    {
+      "word": "unrealistic",
+      "ipa": "/ˌʌnrɪəˈlɪstɪk/",
+      "cs": "nerealistický"
+    },
+    {
+      "word": "unsurprising",
+      "ipa": "/ˌʌnsəˈpraɪzɪŋ/",
+      "cs": "nepřekvapivý"
+    },
+    {
+      "word": "violent",
+      "ipa": "/ˈvaɪələnt/",
+      "cs": "násilný"
+    },
+    {
+      "word": "visible",
+      "ipa": "/ˈvɪzəbl/",
+      "cs": "viditelný"
+    },
+    {
+      "word": "war film",
+      "ipa": "/wɔː(r) fɪlm/",
+      "cs": "válečný film"
+    },
+    {
+      "word": "weather forecast",
+      "ipa": "/ˈweðə fɔːkɑːst/",
+      "cs": "předpověď počasí"
+    },
+    {
+      "word": "western",
+      "ipa": "/ˈwestən/",
+      "cs": "western"
+    }
+  ],
+  "Unit 4": [
+    {
+      "word": "approach",
+      "ipa": "/əˈprəʊtʃ/",
+      "cs": "blížit se"
+    },
+    {
+      "word": "avalanche",
+      "ipa": "/ˈævəlɑːnʃ/",
+      "cs": "lavina"
+    },
+    {
+      "word": "billboard",
+      "ipa": "/ˈbɪlbɔːd/",
+      "cs": "billboard"
+    },
+    {
+      "word": "blow",
+      "ipa": "/bləʊ/",
+      "cs": "foukat"
+    },
+    {
+      "word": "bus stop",
+      "ipa": "/ˈbʌs stɒp/",
+      "cs": "autobusová zastávka"
+    },
+    {
+      "word": "climate change",
+      "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+      "cs": "změna klimatu"
+    },
+    {
+      "word": "close down",
+      "ipa": "/kləʊz ˈdaʊn/",
+      "cs": "ukončit činnost"
+    },
+    {
+      "word": "clouds",
+      "ipa": "/klaʊdz/",
+      "cs": "mraky"
+    },
+    {
+      "word": "cloudy",
+      "ipa": "/ˈklaʊdi/",
+      "cs": "zamračeno"
+    },
+    {
+      "word": "come up with",
+      "ipa": "/kʌm ˈʌp wɪð/",
+      "cs": "přijít s (nápadem)"
+    },
+    {
+      "word": "cut down",
+      "ipa": "/kʌt daʊn/",
+      "cs": "omezit"
+    },
+    {
+      "word": "die out",
+      "ipa": "/daɪ aʊt/",
+      "cs": "vyhynout"
+    },
+    {
+      "word": "drought",
+      "ipa": "/draʊt/",
+      "cs": "sucho"
+    },
+    {
+      "word": "earthquake",
+      "ipa": "/ˈɜːθkweɪk/",
+      "cs": "zemětřesení"
+    },
+    {
+      "word": "epidemic",
+      "ipa": "/ˌepɪˈdemɪk/",
+      "cs": "epidemie"
+    },
+    {
+      "word": "famine",
+      "ipa": "/ˈfæmɪn/",
+      "cs": "hladomor"
+    },
+    {
+      "word": "fire hydrant",
+      "ipa": "/ˈfaɪə(r) ˌhaɪdrənt/",
+      "cs": "hydrant"
+    },
+    {
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "cs": "povodeň"
+    },
+    {
+      "word": "foggy",
+      "ipa": "/ˈfɒɡi/",
+      "cs": "mlhavo"
+    },
+    {
+      "word": "forest fire",
+      "ipa": "/ˈfɒrɪst ˌfaɪə(r)/",
+      "cs": "lesní požár"
+    },
+    {
+      "word": "fossil fuels",
+      "ipa": "/ˈfɒsl fjuːəlz/",
+      "cs": "fosilní paliva"
+    },
+    {
+      "word": "frost",
+      "ipa": "/frɒst/",
+      "cs": "mráz"
+    },
+    {
+      "word": "frostbite",
+      "ipa": "/ˈfrɒstbaɪt/",
+      "cs": "omrzlina"
+    },
+    {
+      "word": "frosty",
+      "ipa": "/ˈfrɒsti/",
+      "cs": "mrazivý"
+    },
+    {
+      "word": "give off",
+      "ipa": "/ɡɪv ɒf/",
+      "cs": "vydávat (teplo, zápach)"
+    },
+    {
+      "word": "give up",
+      "ipa": "/ɡɪv ʌp/",
+      "cs": "vzdát se"
+    },
+    {
+      "word": "global warming",
+      "ipa": "/ˌɡləʊbl ˈwɔːmɪŋ/",
+      "cs": "globální oteplování"
+    },
+    {
+      "word": "go up",
+      "ipa": "/ɡəʊ ʌp/",
+      "cs": "stoupat"
+    },
+    {
+      "word": "greenhouse gases",
+      "ipa": "/ˌɡriːnhaʊs ˈɡæsɪz/",
+      "cs": "skleníkové plyny"
+    },
+    {
+      "word": "hail",
+      "ipa": "/heɪl/",
+      "cs": "kroupy"
+    },
+    {
+      "word": "hail storm",
+      "ipa": "/ˈheɪlstɔːm/",
+      "cs": "krupobití"
+    },
+    {
+      "word": "head",
+      "ipa": "/hed/",
+      "cs": "zamířit / směřovat"
+    },
+    {
+      "word": "heat up",
+      "ipa": "/hiːt ʌp/",
+      "cs": "zahřát (se)"
+    },
+    {
+      "word": "ice",
+      "ipa": "/aɪs/",
+      "cs": "led"
+    },
+    {
+      "word": "ice caps",
+      "ipa": "/ˈaɪs kæps/",
+      "cs": "polární čepičky"
+    },
+    {
+      "word": "lamp post",
+      "ipa": "/ˈlæmp pəʊst/",
+      "cs": "sloup veřejného osvětlení"
+    },
+    {
+      "word": "land",
+      "ipa": "/lænd/",
+      "cs": "přistát"
+    },
+    {
+      "word": "lightning",
+      "ipa": "/ˈlaɪtnɪŋ/",
+      "cs": "blesk"
+    },
+    {
+      "word": "live with",
+      "ipa": "/lɪv wɪð/",
+      "cs": "vyrovnat se s"
+    },
+    {
+      "word": "look after",
+      "ipa": "/lʊk ˈɑːftə(r)/",
+      "cs": "starat se o"
+    },
+    {
+      "word": "mist",
+      "ipa": "/mɪst/",
+      "cs": "mlha"
+    },
+    {
+      "word": "misty",
+      "ipa": "/ˈmɪsti/",
+      "cs": "zamlžený"
+    },
+    {
+      "word": "mudslide",
+      "ipa": "/ˈmʌdslaɪd/",
+      "cs": "sesuv půdy"
+    },
+    {
+      "word": "pavement",
+      "ipa": "/ˈpeɪvmənt/",
+      "cs": "chodník"
+    },
+    {
+      "word": "pedestrian crossing",
+      "ipa": "/pəˌdestriən ˈkrɒsɪŋ/",
+      "cs": "přechod pro chodce"
+    },
+    {
+      "word": "put something off",
+      "ipa": "/ˌpʊt sʌmθɪŋ ˈɒf/",
+      "cs": "odložit něco"
+    },
+    {
+      "word": "rain",
+      "ipa": "/reɪn/",
+      "cs": "déšť / pršet"
+    },
+    {
+      "word": "rain shower",
+      "ipa": "/ˌreɪn ʃaʊə(r)/",
+      "cs": "dešťová přeháňka"
+    },
+    {
+      "word": "raindrop",
+      "ipa": "/ˈreɪndrɒp/",
+      "cs": "kapka deště"
+    },
+    {
+      "word": "rainforests",
+      "ipa": "/ˈreɪnfɒrɪsts/",
+      "cs": "tropické deštné lesy"
+    },
+    {
+      "word": "rainy",
+      "ipa": "/ˈreɪni/",
+      "cs": "deštivý"
+    },
+    {
+      "word": "reach",
+      "ipa": "/riːtʃ/",
+      "cs": "dosáhnout"
+    },
+    {
+      "word": "rely on",
+      "ipa": "/rɪˈlaɪ ɒn/",
+      "cs": "spoléhat se na"
+    },
+    {
+      "word": "renewable energy",
+      "ipa": "/rɪˌnjuːəbl ˈenədʒi/",
+      "cs": "obnovitelná energie"
+    },
+    {
+      "word": "road sign",
+      "ipa": "/ˈrəʊd saɪn/",
+      "cs": "dopravní značka"
+    },
+    {
+      "word": "road works",
+      "ipa": "/ˈrəʊdwɜːks/",
+      "cs": "silniční práce"
+    },
+    {
+      "word": "run out",
+      "ipa": "/rʌn aʊt/",
+      "cs": "dojít (zásoby)"
+    },
+    {
+      "word": "sea levels",
+      "ipa": "/ˈsiː levlz/",
+      "cs": "hladina moří"
+    },
+    {
+      "word": "shine",
+      "ipa": "/ʃaɪn/",
+      "cs": "svítit"
+    },
+    {
+      "word": "shop sign",
+      "ipa": "/ˈʃɒp saɪn/",
+      "cs": "vývěsní štít obchodu"
+    },
+    {
+      "word": "shower",
+      "ipa": "/ˈʃaʊə(r)/",
+      "cs": "přeháňka"
+    },
+    {
+      "word": "showery",
+      "ipa": "/ˈʃaʊəri/",
+      "cs": "s přeháňkami"
+    },
+    {
+      "word": "snow",
+      "ipa": "/snəʊ/",
+      "cs": "sníh / sněžit"
+    },
+    {
+      "word": "snowflake",
+      "ipa": "/ˈsnəʊfleɪk/",
+      "cs": "sněhová vločka"
+    },
+    {
+      "word": "snowy",
+      "ipa": "/ˈsnəʊi/",
+      "cs": "sněžný"
+    },
+    {
+      "word": "spin",
+      "ipa": "/spɪn/",
+      "cs": "vířit / otáčet se"
+    },
+    {
+      "word": "storm",
+      "ipa": "/stɔːm/",
+      "cs": "bouře"
+    },
+    {
+      "word": "stormy",
+      "ipa": "/ˈstɔːmi/",
+      "cs": "bouřlivý"
+    },
+    {
+      "word": "street corner",
+      "ipa": "/ˈstriːt kɔːnə(r)/",
+      "cs": "rohu ulice"
+    },
+    {
+      "word": "sunny",
+      "ipa": "/ˈsʌni/",
+      "cs": "slunečno"
+    },
+    {
+      "word": "sunshine",
+      "ipa": "/ˈsʌnʃaɪn/",
+      "cs": "sluneční svit"
+    },
+    {
+      "word": "surface temperature",
+      "ipa": "/ˈsɜːfɪs ˌtemprətʃə(r)/",
+      "cs": "povrchová teplota"
+    },
+    {
+      "word": "take off",
+      "ipa": "/teɪk ɒf/",
+      "cs": "odstartovat"
+    },
+    {
+      "word": "thunder",
+      "ipa": "/ˈθʌndə(r)/",
+      "cs": "hrom / hřmít"
+    },
+    {
+      "word": "thunderstorm",
+      "ipa": "/ˈθʌndəstɔːm/",
+      "cs": "bouřka"
+    },
+    {
+      "word": "thundery",
+      "ipa": "/ˈθʌndəri/",
+      "cs": "bouřkový"
+    },
+    {
+      "word": "traffic light",
+      "ipa": "/ˈtræfɪk laɪt/",
+      "cs": "semafor"
+    },
+    {
+      "word": "tsunami",
+      "ipa": "/tsuːˈnɑːmi/",
+      "cs": "tsunami"
+    },
+    {
+      "word": "use up",
+      "ipa": "/juːs ʌp/",
+      "cs": "vyčerpat (zásoby)"
+    },
+    {
+      "word": "volcanic eruption",
+      "ipa": "/vɒlˌkænɪk ɪˈrʌpʃn/",
+      "cs": "sopečná erupce"
+    },
+    {
+      "word": "wake up",
+      "ipa": "/weɪk ʌp/",
+      "cs": "vzbudit se"
+    },
+    {
+      "word": "windy",
+      "ipa": "/ˈwɪndi/",
+      "cs": "větrno"
+    }
+  ],
+  "Unit 5": [
+    {
+      "word": "architect",
+      "ipa": "/ˈɑːkɪtekt/",
+      "cs": "architekt"
+    },
+    {
+      "word": "badly-paid",
+      "ipa": "/ˈbædli peɪd/",
+      "cs": "špatně placený"
+    },
+    {
+      "word": "builder",
+      "ipa": "/ˈbɪldə(r)/",
+      "cs": "stavební dělník"
+    },
+    {
+      "word": "challenging",
+      "ipa": "/ˈtʃælɪndʒɪŋ/",
+      "cs": "náročný"
+    },
+    {
+      "word": "cleaner",
+      "ipa": "/ˈkliːnə(r)/",
+      "cs": "uklízeč/uklízečka"
+    },
+    {
+      "word": "creative",
+      "ipa": "/kriˈeɪtɪv/",
+      "cs": "tvořivý"
+    },
+    {
+      "word": "dentist",
+      "ipa": "/ˈdentɪst/",
+      "cs": "zubař"
+    },
+    {
+      "word": "engineer",
+      "ipa": "/ˌendʒɪˈnɪə(r)/",
+      "cs": "inženýr"
+    },
+    {
+      "word": "enthusiastic",
+      "ipa": "/ɪnˌθjuːziˈæstɪk/",
+      "cs": "nadšený"
+    },
+    {
+      "word": "estate agent",
+      "ipa": "/ɪsˈteɪt ˌeɪdʒənt/",
+      "cs": "realitní makléř"
+    },
+    {
+      "word": "farm worker",
+      "ipa": "/ˈfɑːm ˌwɜːkə(r)/",
+      "cs": "zemědělský dělník"
+    },
+    {
+      "word": "flexible",
+      "ipa": "/ˈfleksəbl/",
+      "cs": "flexibilní"
+    },
+    {
+      "word": "friendly",
+      "ipa": "/ˈfrendli/",
+      "cs": "přátelský"
+    },
+    {
+      "word": "gardener",
+      "ipa": "/ˈɡɑːdnə(r)/",
+      "cs": "zahradník"
+    },
+    {
+      "word": "good at communicating",
+      "ipa": "/ˌɡʊd æt kəˈmjuːnɪkeɪtɪŋ/",
+      "cs": "dobrý v komunikaci"
+    },
+    {
+      "word": "groundskeeper",
+      "ipa": "/ˈgraʊndzkiːpə(r)/",
+      "cs": "správce hřiště/pozemku"
+    },
+    {
+      "word": "hairdresser",
+      "ipa": "/ˈheədresə(r)/",
+      "cs": "kadeřník/kadeřnice"
+    },
+    {
+      "word": "hard-working",
+      "ipa": "/ˌhɑːd ˈwɜːkɪŋ/",
+      "cs": "pracovitý"
+    },
+    {
+      "word": "journalist",
+      "ipa": "/ˈdʒɜːnəlɪst/",
+      "cs": "novinář"
+    },
+    {
+      "word": "locksmith",
+      "ipa": "/ˈlɒksmɪθ/",
+      "cs": "zámečník"
+    },
+    {
+      "word": "paramedic",
+      "ipa": "/ˌpærəˈmedɪk/",
+      "cs": "záchranář"
+    },
+    {
+      "word": "photographer",
+      "ipa": "/fəˈtɒɡrəfə(r)/",
+      "cs": "fotograf"
+    },
+    {
+      "word": "physically fit",
+      "ipa": "/ˌfɪzɪkli ˈfɪt/",
+      "cs": "fyzicky zdatný"
+    },
+    {
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "cs": "pilot"
+    },
+    {
+      "word": "pizza delivery man / woman",
+      "ipa": "/ˌpiːtsə dɪˈlɪvəri mæn/, /wʊmən/",
+      "cs": "donáška pizzy"
+    },
+    {
+      "word": "police officer",
+      "ipa": "/pəˈliːs ɒfɪsə(r)/",
+      "cs": "policista"
+    },
+    {
+      "word": "programmer",
+      "ipa": "/ˈprəʊɡræmə(r)/",
+      "cs": "programátor"
+    },
+    {
+      "word": "receptionist",
+      "ipa": "/rɪˈsepʃənɪst/",
+      "cs": "recepční"
+    },
+    {
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "cs": "spolehlivý"
+    },
+    {
+      "word": "repetitive",
+      "ipa": "/rɪˈpetətɪv/",
+      "cs": "monotónní"
+    },
+    {
+      "word": "rewarding",
+      "ipa": "/rɪˈwɔːdɪŋ/",
+      "cs": "uspokojivý"
+    },
+    {
+      "word": "sales assistant",
+      "ipa": "/ˈseɪlz əˌsɪstənt/",
+      "cs": "prodavač/prodavačka"
+    },
+    {
+      "word": "solicitor",
+      "ipa": "/səˈlɪsɪtə(r)/",
+      "cs": "advokát"
+    },
+    {
+      "word": "sports coach",
+      "ipa": "/ˈspɔːts kəʊtʃ/",
+      "cs": "sportovní trenér"
+    },
+    {
+      "word": "stressful",
+      "ipa": "/ˈstresfl/",
+      "cs": "stresující"
+    },
+    {
+      "word": "stunt performer",
+      "ipa": "/ˈstʌnt pəˌfɔːmə(r)/",
+      "cs": "kaskadér"
+    },
+    {
+      "word": "surfing instructor",
+      "ipa": "/ˈsɜːfɪŋ ɪnˌstrʌktə(r)/",
+      "cs": "instruktor surfování"
+    },
+    {
+      "word": "travel agent",
+      "ipa": "/ˈtrævl ˌeɪdʒənt/",
+      "cs": "cestovní agent"
+    },
+    {
+      "word": "varied",
+      "ipa": "/ˈveərid/",
+      "cs": "rozmanitý"
+    },
+    {
+      "word": "video game developer",
+      "ipa": "/ˈvɪdiəʊ ɡeɪm dɪˌveləpə(r)/",
+      "cs": "vývojář videoher"
+    },
+    {
+      "word": "waiter",
+      "ipa": "/ˈweɪtə(r)/",
+      "cs": "číšník"
+    },
+    {
+      "word": "well-paid",
+      "ipa": "/wel peɪd/",
+      "cs": "dobře placený"
+    }
+  ],
+  "Unit 6": [
+    {
+      "word": "abseiling",
+      "ipa": "/ˈæbseɪlɪŋ/",
+      "cs": "slaňování"
+    },
+    {
+      "word": "aquarium",
+      "ipa": "/əˈkweəriəm/",
+      "cs": "akvárium"
+    },
+    {
+      "word": "art gallery",
+      "ipa": "/ˈɑːt ɡæləri/",
+      "cs": "umělecká galerie"
+    },
+    {
+      "word": "atmospheric",
+      "ipa": "/ˌætməsˈferɪk/",
+      "cs": "atmosférický"
+    },
+    {
+      "word": "backpack",
+      "ipa": "/ˈbækpæk/",
+      "cs": "batoh"
+    },
+    {
+      "word": "bag drop",
+      "ipa": "/bæɡ drɒp/",
+      "cs": "odbavení zavazadel"
+    },
+    {
+      "word": "baggage carousel",
+      "ipa": "/ˈbæɡɪdʒ kærəˌsel/",
+      "cs": "pás na zavazadla"
+    },
+    {
+      "word": "beautiful",
+      "ipa": "/ˈbjuːtɪfl/",
+      "cs": "krásný"
+    },
+    {
+      "word": "boarding pass",
+      "ipa": "/ˈbɔːdɪŋ pɑːs/",
+      "cs": "palubní vstupenka"
+    },
+    {
+      "word": "boat trip",
+      "ipa": "/ˈbəʊt trɪp/",
+      "cs": "výlet lodí"
+    },
+    {
+      "word": "botanical gardens",
+      "ipa": "/bəˌtænɪkl ˈɡɑːdnz/",
+      "cs": "botanická zahrada"
+    },
+    {
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "cs": "rušný"
+    },
+    {
+      "word": "cabin crew",
+      "ipa": "/ˈkæbɪn kruː/",
+      "cs": "palubní personál"
+    },
+    {
+      "word": "campsite",
+      "ipa": "/ˈkæmpsaɪt/",
+      "cs": "kemp"
+    },
+    {
+      "word": "carnival",
+      "ipa": "/ˈkɑːnɪvl/",
+      "cs": "karneval"
+    },
+    {
+      "word": "castle",
+      "ipa": "/ˈkɑːsl/",
+      "cs": "hrad"
+    },
+    {
+      "word": "cathedral",
+      "ipa": "/kəˈθːdrəl/",
+      "cs": "katedrála"
+    },
+    {
+      "word": "cheap",
+      "ipa": "/tʃiːp/",
+      "cs": "levný"
+    },
+    {
+      "word": "check-in desk",
+      "ipa": "/ˈtʃek ɪn desk/",
+      "cs": "odbavovací přepážka"
+    },
+    {
+      "word": "concert",
+      "ipa": "/ˈkɒnsət/",
+      "cs": "koncert"
+    },
+    {
+      "word": "crowded",
+      "ipa": "/ˈkraʊdɪd/",
+      "cs": "přeplněný"
+    },
+    {
+      "word": "departure lounge",
+      "ipa": "/dɪˈpɑːtʃə(r) ˌlaʊndʒ/",
+      "cs": "odletová hala"
+    },
+    {
+      "word": "disappointing",
+      "ipa": "/ˌdɪsəˈpɔɪntɪŋ/",
+      "cs": "zklamávající"
+    },
+    {
+      "word": "double room",
+      "ipa": "/ˌdʌbl ˈrʊm/",
+      "cs": "dvoulůžkový pokoj"
+    },
+    {
+      "word": "economy class",
+      "ipa": "/ɪˈkɒnəmi ˌklɑːs/",
+      "cs": "ekonomická třída"
+    },
+    {
+      "word": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "cs": "drahý"
+    },
+    {
+      "word": "festival",
+      "ipa": "/ˈfestɪvl/",
+      "cs": "festival"
+    },
+    {
+      "word": "flight attendant",
+      "ipa": "/ˈflaɪt əˌtendənt/",
+      "cs": "palubní průvodčí"
+    },
+    {
+      "word": "flight number",
+      "ipa": "/ˈflaɪt nʌmbə(r)/",
+      "cs": "číslo letu"
+    },
+    {
+      "word": "fountain",
+      "ipa": "/ˈfaʊntən/",
+      "cs": "fontána"
+    },
+    {
+      "word": "full board",
+      "ipa": "/ˌfʊl ˈbɔːd/",
+      "cs": "plná penze"
+    },
+    {
+      "word": "full-time",
+      "ipa": "/ˌfʊl ˈtaɪm/",
+      "cs": "na plný úvazek"
+    },
+    {
+      "word": "half board",
+      "ipa": "/ˌhɑːf ˈbɔːd/",
+      "cs": "polopenze"
+    },
+    {
+      "word": "hand luggage",
+      "ipa": "/ˈhænd lʌɡɪdʒ/",
+      "cs": "příruční zavazadlo"
+    },
+    {
+      "word": "harbour",
+      "ipa": "/ˈhɑːbə(r)/",
+      "cs": "přístav"
+    },
+    {
+      "word": "high season",
+      "ipa": "/ˈhaɪ siːzn/",
+      "cs": "hlavní sezóna"
+    },
+    {
+      "word": "hire (a bike)",
+      "ipa": "/ˈhaɪə(r)/",
+      "cs": "půjčit si (kolo)"
+    },
+    {
+      "word": "historic",
+      "ipa": "/hɪˈstɒrɪk/",
+      "cs": "historický"
+    },
+    {
+      "word": "kayaking",
+      "ipa": "/ˈkaɪækɪŋ/",
+      "cs": "jízda na kajaku"
+    },
+    {
+      "word": "low season",
+      "ipa": "/ˈləʊ siːzn/",
+      "cs": "mimo sezónu"
+    },
+    {
+      "word": "market",
+      "ipa": "/ˈmɑːkɪt/",
+      "cs": "trh"
+    },
+    {
+      "word": "monument",
+      "ipa": "/ˈmɒnjumənt/",
+      "cs": "památník"
+    },
+    {
+      "word": "mosque",
+      "ipa": "/mɒsk/",
+      "cs": "mešita"
+    },
+    {
+      "word": "mountain biking",
+      "ipa": "/ˈmaʊntən ˌbaɪkɪŋ/",
+      "cs": "horská cyklistika"
+    },
+    {
+      "word": "museum",
+      "ipa": "/mjuˈziːəm/",
+      "cs": "muzeum"
+    },
+    {
+      "word": "national park",
+      "ipa": "/ˌnæʃnəl ˈpɑːk/",
+      "cs": "národní park"
+    },
+    {
+      "word": "old town",
+      "ipa": "/ˈəʊld taʊn/",
+      "cs": "staré město"
+    },
+    {
+      "word": "online check-in",
+      "ipa": "/ˌɒnˈlaɪn tʃek ɪn/",
+      "cs": "online odbavení"
+    },
+    {
+      "word": "opera house",
+      "ipa": "/ˈɒprə haʊs/",
+      "cs": "opera (budova)"
+    },
+    {
+      "word": "palace",
+      "ipa": "/ˈpæləs/",
+      "cs": "palác"
+    },
+    {
+      "word": "park",
+      "ipa": "/pɑːk/",
+      "cs": "park"
+    },
+    {
+      "word": "part-time",
+      "ipa": "/ˌpɑːt ˈtaɪm/",
+      "cs": "na částečný úvazek"
+    },
+    {
+      "word": "passport control",
+      "ipa": "/ˈpɑːspɔːt kənˌtrəʊl/",
+      "cs": "pasová kontrola"
+    },
+    {
+      "word": "peaceful",
+      "ipa": "/ˈpiːsfl/",
+      "cs": "klidný"
+    },
+    {
+      "word": "penpal",
+      "ipa": "/ˈpen pæl/",
+      "cs": "dopisní přítel"
+    },
+    {
+      "word": "restaurant",
+      "ipa": "/ˈrestrɒnt/",
+      "cs": "restaurace"
+    },
+    {
+      "word": "romantic",
+      "ipa": "/rəʊˈmæntɪk/",
+      "cs": "romantický"
+    },
+    {
+      "word": "ruins",
+      "ipa": "/ˈruːɪnz/",
+      "cs": "zříceniny"
+    },
+    {
+      "word": "safari park",
+      "ipa": "/səˈfɑːri pɑːk/",
+      "cs": "safari park"
+    },
+    {
+      "word": "seat belt",
+      "ipa": "/ˈsiːt belt/",
+      "cs": "bezpečnostní pás"
+    },
+    {
+      "word": "security camera",
+      "ipa": "/sɪˈkjʊərəti ˌkæmərə/",
+      "cs": "bezpečnostní kamera"
+    },
+    {
+      "word": "security check",
+      "ipa": "/sɪˈkjʊərəti tʃek/",
+      "cs": "bezpečnostní kontrola"
+    },
+    {
+      "word": "shopping district",
+      "ipa": "/ˈʃɒpɪŋ ˌdɪstrɪkt/",
+      "cs": "obchodní čtvrť"
+    },
+    {
+      "word": "single room",
+      "ipa": "/ˈsɪŋɡl rʊm/",
+      "cs": "jednolůžkový pokoj"
+    },
+    {
+      "word": "souvenirs",
+      "ipa": "/ˌsuːvəˈnɪəz/",
+      "cs": "suvenýry"
+    },
+    {
+      "word": "square",
+      "ipa": "/skweə(r)/",
+      "cs": "náměstí"
+    },
+    {
+      "word": "statue",
+      "ipa": "/ˈstætʃuː/",
+      "cs": "socha"
+    },
+    {
+      "word": "sunburn",
+      "ipa": "/ˈsʌnbɜːn/",
+      "cs": "spálení od slunce"
+    },
+    {
+      "word": "suncream",
+      "ipa": "/ˈsʌnkriːm/",
+      "cs": "opalovací krém"
+    },
+    {
+      "word": "sunglasses",
+      "ipa": "/ˈsʌnɡlɑːsɪz/",
+      "cs": "sluneční brýle"
+    },
+    {
+      "word": "temple",
+      "ipa": "/ˈtempl/",
+      "cs": "chrám"
+    },
+    {
+      "word": "theatre",
+      "ipa": "/ˈθɪətə(r)/",
+      "cs": "divadlo"
+    },
+    {
+      "word": "theme park",
+      "ipa": "/ˈθiːm pɑːk/",
+      "cs": "zábavní park"
+    },
+    {
+      "word": "touristy",
+      "ipa": "/ˈtɔːrɪsti/",
+      "cs": "turistický"
+    },
+    {
+      "word": "tower",
+      "ipa": "/ˈtaʊə(r)/",
+      "cs": "věž"
+    },
+    {
+      "word": "travel guide",
+      "ipa": "/ˈtrævl ɡaɪd/",
+      "cs": "turistický průvodce"
+    },
+    {
+      "word": "travel programme",
+      "ipa": "/ˈtrævl ˌprəʊɡræm/",
+      "cs": "cestovatelský pořad"
+    },
+    {
+      "word": "window seat",
+      "ipa": "/ˈwɪndəʊ siːt/",
+      "cs": "místo u okna"
+    }
+  ],
+  "Unit 7": [
+    {
+      "word": "admit",
+      "ipa": "/ədˈmɪt/",
+      "cs": "připustit"
+    },
+    {
+      "word": "afford",
+      "ipa": "/əˈfɔːd/",
+      "cs": "dovolit si (finančně)"
+    },
+    {
+      "word": "agree",
+      "ipa": "/əˈɡriː/",
+      "cs": "souhlasit"
+    },
+    {
+      "word": "avoid",
+      "ipa": "/əˈvɔɪd/",
+      "cs": "vyhnout se"
+    },
+    {
+      "word": "baker's",
+      "ipa": "/ˈbeɪkəz/",
+      "cs": "pekařství"
+    },
+    {
+      "word": "bank",
+      "ipa": "/bæŋk/",
+      "cs": "banka"
+    },
+    {
+      "word": "bargain",
+      "ipa": "/ˈbɑːɡən/",
+      "cs": "výhodná koupě"
+    },
+    {
+      "word": "be short of",
+      "ipa": "/bi ˈʃɔːt ɒv/",
+      "cs": "mít nedostatek (čeho)"
+    },
+    {
+      "word": "borrow",
+      "ipa": "/ˈbɒrəʊ/",
+      "cs": "půjčit si"
+    },
+    {
+      "word": "butcher's",
+      "ipa": "/ˈbʊtʃəz/",
+      "cs": "řeznictví"
+    },
+    {
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "cs": "koupit"
+    },
+    {
+      "word": "CEO",
+      "ipa": "/ˌsiː iː ˈəʊ/",
+      "cs": "generální ředitel"
+    },
+    {
+      "word": "charge",
+      "ipa": "/tʃɑːdʒ/",
+      "cs": "účtovat"
+    },
+    {
+      "word": "charity shop",
+      "ipa": "/ˈtʃærəti ʃɒp/",
+      "cs": "obchod s charitativním zbožím"
+    },
+    {
+      "word": "chemist's",
+      "ipa": "/ˈkemɪsts/",
+      "cs": "lékárna"
+    },
+    {
+      "word": "choose",
+      "ipa": "/tʃuːz/",
+      "cs": "vybrat si"
+    },
+    {
+      "word": "clothes shop",
+      "ipa": "/ˈkləʊðz ʃɒp/",
+      "cs": "obchod s oblečením"
+    },
+    {
+      "word": "coffee shop",
+      "ipa": "/ˈkɒfi ʃɒp/",
+      "cs": "kavárna"
+    },
+    {
+      "word": "contract",
+      "ipa": "/ˈkɒntrækt/",
+      "cs": "smlouva"
+    },
+    {
+      "word": "cosmetics store",
+      "ipa": "/kɒzˈmetɪks stɔː(r)/",
+      "cs": "obchod s kosmetikou"
+    },
+    {
+      "word": "cost",
+      "ipa": "/kɒst/",
+      "cs": "stát (cenu)"
+    },
+    {
+      "word": "coupon",
+      "ipa": "/ˈkuːpɒn/",
+      "cs": "kupón"
+    },
+    {
+      "word": "decide",
+      "ipa": "/dɪˈsaɪd/",
+      "cs": "rozhodnout se"
+    },
+    {
+      "word": "deli [delicatessen]",
+      "ipa": "/ˈdeli/, /ˌdelɪkəˈtesn/",
+      "cs": "lahůdkářství"
+    },
+    {
+      "word": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "cs": "sleva"
+    },
+    {
+      "word": "DIY store",
+      "ipa": "/ˌdiː aɪ ˈwaɪ stɔː(r)/",
+      "cs": "obchod pro kutily"
+    },
+    {
+      "word": "end up",
+      "ipa": "/end ʌp/",
+      "cs": "skončit"
+    },
+    {
+      "word": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "cs": "užívat si"
+    },
+    {
+      "word": "entrepreneur",
+      "ipa": "/ˌɒntrəprəˈnɜː(r)/",
+      "cs": "podnikatel"
+    },
+    {
+      "word": "estate agent's",
+      "ipa": "/ɪˈsteɪt eɪdʒənts/",
+      "cs": "kancelář realitní agentury"
+    },
+    {
+      "word": "expect",
+      "ipa": "/ɪkˈspekt/",
+      "cs": "očekávat"
+    },
+    {
+      "word": "fail",
+      "ipa": "/feɪl/",
+      "cs": "neuspět"
+    },
+    {
+      "word": "fancy",
+      "ipa": "/ˈfænsi/",
+      "cs": "mít chuť na"
+    },
+    {
+      "word": "florist's",
+      "ipa": "/ˈflɒrɪsts/",
+      "cs": "květinářství"
+    },
+    {
+      "word": "funding",
+      "ipa": "/ˈfʌndɪŋ/",
+      "cs": "financování"
+    },
+    {
+      "word": "garden centre",
+      "ipa": "/ˈɡɑːdn sentə(r)/",
+      "cs": "zahradnické centrum"
+    },
+    {
+      "word": "get a refund (for sth)",
+      "ipa": "/ɡet ə ˈriːfʌnd/",
+      "cs": "dostat peníze zpět (za něco)"
+    },
+    {
+      "word": "give a refund (for sth)",
+      "ipa": "/ɡɪv ə ˈriːfʌnd/",
+      "cs": "vrátit peníze (za něco)"
+    },
+    {
+      "word": "greengrocer's",
+      "ipa": "/ˈɡriːnɡrəʊsəz/",
+      "cs": "obchod se zeleninou a ovocem"
+    },
+    {
+      "word": "hairdresser's",
+      "ipa": "/ˈheədresəz/",
+      "cs": "kadeřnictví"
+    },
+    {
+      "word": "income",
+      "ipa": "/ˈɪnkʌm/",
+      "cs": "příjem"
+    },
+    {
+      "word": "investor",
+      "ipa": "/ɪnˈvestə(r)/",
+      "cs": "investor"
+    },
+    {
+      "word": "jeweller's",
+      "ipa": "/ˈdʒuːələz/",
+      "cs": "klenotnictví"
+    },
+    {
+      "word": "keep",
+      "ipa": "/kiːp/",
+      "cs": "ponechat si"
+    },
+    {
+      "word": "launderette",
+      "ipa": "/lɔːnˈdret/",
+      "cs": "prádelna (samoobslužná)"
+    },
+    {
+      "word": "lend",
+      "ipa": "/lend/",
+      "cs": "půjčit (někomu)"
+    },
+    {
+      "word": "lose",
+      "ipa": "/luːz/",
+      "cs": "ztratit"
+    },
+    {
+      "word": "mind",
+      "ipa": "/maɪnd/",
+      "cs": "vadit (komu)"
+    },
+    {
+      "word": "newsagent's",
+      "ipa": "/ˈnjuːzeɪdʒənts/",
+      "cs": "novinový stánek"
+    },
+    {
+      "word": "offer",
+      "ipa": "/ˈɒfə(r)/",
+      "cs": "nabídnout"
+    },
+    {
+      "word": "optician's",
+      "ipa": "/ɒpˈtɪʃnz/",
+      "cs": "oční optika"
+    },
+    {
+      "word": "owe",
+      "ipa": "/əʊ/",
+      "cs": "dlužit"
+    },
+    {
+      "word": "pay (for sth)",
+      "ipa": "/peɪ/",
+      "cs": "zaplatit (za něco)"
+    },
+    {
+      "word": "post-office",
+      "ipa": "/ˈpəʊst ˌɒfɪs/",
+      "cs": "pošta"
+    },
+    {
+      "word": "prefer",
+      "ipa": "/prɪˈfɜː(r)/",
+      "cs": "preferovat"
+    },
+    {
+      "word": "pretend",
+      "ipa": "/prɪˈtend/",
+      "cs": "předstírat"
+    },
+    {
+      "word": "price tag",
+      "ipa": "/ˈpraɪs tæɡ/",
+      "cs": "cenovka"
+    },
+    {
+      "word": "profits",
+      "ipa": "/ˈprɒfɪts/",
+      "cs": "zisky"
+    },
+    {
+      "word": "promise",
+      "ipa": "/ˈprɒmɪs/",
+      "cs": "slíbit"
+    },
+    {
+      "word": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "cs": "účtenka"
+    },
+    {
+      "word": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "cs": "vrácení peněz"
+    },
+    {
+      "word": "refuse",
+      "ipa": "/rɪˈfjuːz/",
+      "cs": "odmítnout"
+    },
+    {
+      "word": "run out (of sth)",
+      "ipa": "/rʌn aʊt/",
+      "cs": "dojít (zásoby čeho)"
+    },
+    {
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "cs": "plat"
+    },
+    {
+      "word": "sale",
+      "ipa": "/seɪl/",
+      "cs": "výprodej"
+    },
+    {
+      "word": "save",
+      "ipa": "/seɪv/",
+      "cs": "šetřit"
+    },
+    {
+      "word": "save up (for sth)",
+      "ipa": "/seɪv ʌp/",
+      "cs": "šetřit si (na něco)"
+    },
+    {
+      "word": "sell",
+      "ipa": "/sel/",
+      "cs": "prodat"
+    },
+    {
+      "word": "shoe shop",
+      "ipa": "/ʃuː ʃɒp/",
+      "cs": "obchod s botami"
+    },
+    {
+      "word": "special offer",
+      "ipa": "/speʃl ˈɒfə(r)/",
+      "cs": "speciální nabídka"
+    },
+    {
+      "word": "spend",
+      "ipa": "/spend/",
+      "cs": "utratit"
+    },
+    {
+      "word": "stationer's",
+      "ipa": "/ˈsteɪʃnəz/",
+      "cs": "papírnictví"
+    },
+    {
+      "word": "takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "cs": "jídlo s sebou"
+    },
+    {
+      "word": "waste",
+      "ipa": "/weɪst/",
+      "cs": "promarnit"
+    }
+  ],
+  "Unit 8": [
+    {
+      "word": "affordable",
+      "ipa": "/əˈfɔːdəbl/",
+      "cs": "cenově dostupný"
+    },
+    {
+      "word": "appeal",
+      "ipa": "/əˈpiːl/",
+      "cs": "lákat"
+    },
+    {
+      "word": "arson",
+      "ipa": "/ˈɑːsn/",
+      "cs": "žhářství"
+    },
+    {
+      "word": "arsonist",
+      "ipa": "/ˈɑːsənɪst/",
+      "cs": "žhář"
+    },
+    {
+      "word": "balaclava",
+      "ipa": "/ˌbæləˈklɑːvə/",
+      "cs": "kukla"
+    },
+    {
+      "word": "board game",
+      "ipa": "/ˈbɔːd ɡeɪm/",
+      "cs": "desková hra"
+    },
+    {
+      "word": "break into something",
+      "ipa": "/breɪk ˈɪntə ˌsʌmθɪŋ/",
+      "cs": "vloupat se do něčeho"
+    },
+    {
+      "word": "burglar",
+      "ipa": "/ˈbɜːɡlə(r)/",
+      "cs": "vykradač"
+    },
+    {
+      "word": "burglary",
+      "ipa": "/ˈbɜːɡləri/",
+      "cs": "vloupání"
+    },
+    {
+      "word": "burgle",
+      "ipa": "/ˈbɜːɡl/",
+      "cs": "vyloupit"
+    },
+    {
+      "word": "cards",
+      "ipa": "/kɑːdz/",
+      "cs": "karty"
+    },
+    {
+      "word": "careless",
+      "ipa": "/ˈkeələs/",
+      "cs": "neopatrný"
+    },
+    {
+      "word": "chewing gum",
+      "ipa": "/ˈtʃuːɪŋ ɡʌm/",
+      "cs": "žvýkačka"
+    },
+    {
+      "word": "childish",
+      "ipa": "/ˈtʃaɪldɪʃ/",
+      "cs": "dětinský"
+    },
+    {
+      "word": "cowardly",
+      "ipa": "/ˈkaʊədli/",
+      "cs": "zbabělý"
+    },
+    {
+      "word": "damage",
+      "ipa": "/ˈdæmɪdʒ/",
+      "cs": "poškodit"
+    },
+    {
+      "word": "dangerous",
+      "ipa": "/ˈdeɪndʒərəs/",
+      "cs": "nebezpečný"
+    },
+    {
+      "word": "deal drugs",
+      "ipa": "/diːl drʌɡz/",
+      "cs": "obchodovat s drogami"
+    },
+    {
+      "word": "dental records",
+      "ipa": "/ˈdentl ˌrɪkɔːdz/",
+      "cs": "zubní záznamy"
+    },
+    {
+      "word": "drinkable",
+      "ipa": "/ˈdrɪŋkəbl/",
+      "cs": "pitelný"
+    },
+    {
+      "word": "drug dealer",
+      "ipa": "/ˈdrʌɡ diːlə(r)/",
+      "cs": "drogový dealer"
+    },
+    {
+      "word": "drug-dealing",
+      "ipa": "/ˈdrʌɡ diːlɪŋ/",
+      "cs": "obchodování s drogami"
+    },
+    {
+      "word": "economical",
+      "ipa": "/ˌekəˈnɒmɪkl/, /ˌiːkəˈnɒmɪkl/",
+      "cs": "hospodárný"
+    },
+    {
+      "word": "enjoyable",
+      "ipa": "/ɪnˈdʒɔɪəbl/",
+      "cs": "příjemný"
+    },
+    {
+      "word": "fingerprints",
+      "ipa": "/ˈfɪŋɡəprɪnts/",
+      "cs": "otisky prstů"
+    },
+    {
+      "word": "foolish",
+      "ipa": "/ˈfuːlɪʃ/",
+      "cs": "hloupý"
+    },
+    {
+      "word": "furious",
+      "ipa": "/ˈfjʊəriəs/",
+      "cs": "zuřivý"
+    },
+    {
+      "word": "grab",
+      "ipa": "/ɡræb/",
+      "cs": "popadnout"
+    },
+    {
+      "word": "greenish",
+      "ipa": "/ˈɡriːnɪʃ/",
+      "cs": "nazelenalý"
+    },
+    {
+      "word": "handbag",
+      "ipa": "/ˈhændbæɡ/",
+      "cs": "kabelka"
+    },
+    {
+      "word": "helpful",
+      "ipa": "/ˈhelpfl/",
+      "cs": "nápomocný"
+    },
+    {
+      "word": "hold on",
+      "ipa": "/həʊld ɒn/",
+      "cs": "vydržet"
+    },
+    {
+      "word": "hopeful",
+      "ipa": "/ˈhəʊpfl/",
+      "cs": "plný naděje"
+    },
+    {
+      "word": "identify",
+      "ipa": "/aɪˈdentɪfaɪ/",
+      "cs": "identifikovat"
+    },
+    {
+      "word": "interview",
+      "ipa": "/ˈɪntəvjuː/",
+      "cs": "vyslechnout"
+    },
+    {
+      "word": "kill",
+      "ipa": "/kɪl/",
+      "cs": "zabít"
+    },
+    {
+      "word": "launch",
+      "ipa": "/lɔːntʃ/",
+      "cs": "zahájit"
+    },
+    {
+      "word": "lean",
+      "ipa": "/liːn/",
+      "cs": "opírat se"
+    },
+    {
+      "word": "loot",
+      "ipa": "/luːt/",
+      "cs": "rabovat"
+    },
+    {
+      "word": "looter",
+      "ipa": "/ˈluːtə(r)/",
+      "cs": "rabující"
+    },
+    {
+      "word": "looting",
+      "ipa": "/luːtɪŋ/",
+      "cs": "rabování"
+    },
+    {
+      "word": "lucky",
+      "ipa": "/ˈlʌki/",
+      "cs": "šťastný"
+    },
+    {
+      "word": "magical",
+      "ipa": "/ˈmædʒɪkl/",
+      "cs": "kouzelný"
+    },
+    {
+      "word": "mug",
+      "ipa": "/mʌɡ/",
+      "cs": "přepadnout (a oloupit)"
+    },
+    {
+      "word": "mugger",
+      "ipa": "/ˈmʌɡə(r)/",
+      "cs": "lupič"
+    },
+    {
+      "word": "mugging",
+      "ipa": "/ˈmʌɡɪŋ/",
+      "cs": "přepadení"
+    },
+    {
+      "word": "murder",
+      "ipa": "/ˈmɜːdə(r)/",
+      "cs": "vražda"
+    },
+    {
+      "word": "murder investigation",
+      "ipa": "/ˈmɜːdə(r) ɪnvestɪˌɡeɪʃn/",
+      "cs": "vyšetřování vraždy"
+    },
+    {
+      "word": "murderer",
+      "ipa": "/ˈmɜːdərə(r)/",
+      "cs": "vrah"
+    },
+    {
+      "word": "mysterious",
+      "ipa": "/mɪˈstɪəriəs/",
+      "cs": "tajemný"
+    },
+    {
+      "word": "national",
+      "ipa": "/ˈnæʃnəl/",
+      "cs": "národní"
+    },
+    {
+      "word": "open-top car",
+      "ipa": "/ˌəʊpən tɒp ˈkɑː(r)/",
+      "cs": "kabriolet"
+    },
+    {
+      "word": "painful",
+      "ipa": "/ˈpeɪnfl/",
+      "cs": "bolestivý"
+    },
+    {
+      "word": "painless",
+      "ipa": "/ˈpeɪnləs/",
+      "cs": "bezbolestný"
+    },
+    {
+      "word": "patrol",
+      "ipa": "/pəˈtrəʊl/",
+      "cs": "hlídkovat"
+    },
+    {
+      "word": "pull",
+      "ipa": "/pʊl/",
+      "cs": "táhnout"
+    },
+    {
+      "word": "rob",
+      "ipa": "/rɒb/",
+      "cs": "oloupit"
+    },
+    {
+      "word": "robber",
+      "ipa": "/ˈrɒbə(r)/",
+      "cs": "lupič"
+    },
+    {
+      "word": "robbery",
+      "ipa": "/ˈrɒbəri/",
+      "cs": "loupež"
+    },
+    {
+      "word": "run away",
+      "ipa": "/rʌn əwˈeɪ/",
+      "cs": "utéct"
+    },
+    {
+      "word": "search",
+      "ipa": "/sɜːtʃ/",
+      "cs": "prohledat"
+    },
+    {
+      "word": "secret code",
+      "ipa": "/ˌsiːkrət ˈkəʊd/",
+      "cs": "tajný kód"
+    },
+    {
+      "word": "selfish",
+      "ipa": "/ˈselfɪʃ/",
+      "cs": "sobecký"
+    },
+    {
+      "word": "selfless",
+      "ipa": "/ˈselfləs/",
+      "cs": "nesobecký"
+    },
+    {
+      "word": "set fire to something",
+      "ipa": "/set ˈfaɪə(r) tə sʌmθɪŋ/",
+      "cs": "zapálit něco"
+    },
+    {
+      "word": "shoplift",
+      "ipa": "/ˈʃɒplɪft/",
+      "cs": "krást v obchodě"
+    },
+    {
+      "word": "shoplifter",
+      "ipa": "/ˈʃɒplɪftə(r)/",
+      "cs": "zlodějíček v obchodě"
+    },
+    {
+      "word": "shoplifting",
+      "ipa": "/ˈʃɒplɪftɪŋ/",
+      "cs": "krádeže v obchodech"
+    },
+    {
+      "word": "smuggle",
+      "ipa": "/ˈsmʌɡl/",
+      "cs": "pašovat"
+    },
+    {
+      "word": "smuggler",
+      "ipa": "/ˈsmʌɡlə(r)/",
+      "cs": "pašerák"
+    },
+    {
+      "word": "smuggling",
+      "ipa": "/ˈsmʌɡlɪŋ/",
+      "cs": "pašování"
+    },
+    {
+      "word": "snatch",
+      "ipa": "/snætʃ/",
+      "cs": "vytrhnout"
+    },
+    {
+      "word": "steal",
+      "ipa": "/stiːl/",
+      "cs": "krást"
+    },
+    {
+      "word": "strap",
+      "ipa": "/stræp/",
+      "cs": "popruh"
+    },
+    {
+      "word": "study",
+      "ipa": "/ˈstʌdi/",
+      "cs": "studovat"
+    },
+    {
+      "word": "subway",
+      "ipa": "/ˈsʌbweɪ/",
+      "cs": "podchod"
+    },
+    {
+      "word": "table tennis",
+      "ipa": "/ˈteɪbl tenɪs/",
+      "cs": "stolní tenis"
+    },
+    {
+      "word": "tasteless",
+      "ipa": "/ˈteɪstləs/",
+      "cs": "nevkusný"
+    },
+    {
+      "word": "telephone number",
+      "ipa": "/ˈtelɪfəʊn nʌmbə(r)/",
+      "cs": "telefonní číslo"
+    },
+    {
+      "word": "theft",
+      "ipa": "/θeft/",
+      "cs": "krádež"
+    },
+    {
+      "word": "thief [pl thieves]",
+      "ipa": "/θiːf/, /θiːvz/",
+      "cs": "zloděj"
+    },
+    {
+      "word": "train ticket",
+      "ipa": "/ˈtreɪn tɪkɪt/",
+      "cs": "vlaková jízdenka"
+    },
+    {
+      "word": "vandal",
+      "ipa": "/ˈvændl/",
+      "cs": "vandal"
+    },
+    {
+      "word": "vandalise",
+      "ipa": "/ˈvændəlaɪz/",
+      "cs": "vandalsky zničit"
+    },
+    {
+      "word": "vandalism",
+      "ipa": "/ˈvændəlɪzəm/",
+      "cs": "vandalismus"
+    },
+    {
+      "word": "water park",
+      "ipa": "/ˈwɔːtə(r) pɑːk/",
+      "cs": "aquapark"
+    },
+    {
+      "word": "weekly",
+      "ipa": "/ˈwiːkli/",
+      "cs": "týdenní"
+    }
+  ],
+  "Unit 9": [
+    {
+      "word": "aluminium",
+      "ipa": "/ˌæljəˈmɪniəm/",
+      "cs": "hliník"
+    },
+    {
+      "word": "apologise",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "cs": "omluvit se"
+    },
+    {
+      "word": "arrange",
+      "ipa": "/əˈreɪndʒ/",
+      "cs": "zařídit"
+    },
+    {
+      "word": "arrangement",
+      "ipa": "/əˈreɪndʒmənt/",
+      "cs": "uspořádání"
+    },
+    {
+      "word": "bald",
+      "ipa": "/bɔːld/",
+      "cs": "holohlavý"
+    },
+    {
+      "word": "baldness",
+      "ipa": "/bɔːldnəs/",
+      "cs": "plešatost"
+    },
+    {
+      "word": "base",
+      "ipa": "/beɪs/",
+      "cs": "základna"
+    },
+    {
+      "word": "battery",
+      "ipa": "/ˈbætəri/",
+      "cs": "baterie"
+    },
+    {
+      "word": "broken",
+      "ipa": "/ˈbrəʊkən/",
+      "cs": "rozbitý"
+    },
+    {
+      "word": "cardboard",
+      "ipa": "/ˈkɑːdbɔːd/",
+      "cs": "karton"
+    },
+    {
+      "word": "cement",
+      "ipa": "/sɪˈment/",
+      "cs": "cement"
+    },
+    {
+      "word": "ceramic",
+      "ipa": "/səˈræmɪk/",
+      "cs": "keramika"
+    },
+    {
+      "word": "challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "cs": "vyzvat"
+    },
+    {
+      "word": "circular",
+      "ipa": "/ˈsɜːkjələ(r)/",
+      "cs": "kruhový"
+    },
+    {
+      "word": "comfort",
+      "ipa": "/ˈkʌmfət/",
+      "cs": "utěšit"
+    },
+    {
+      "word": "complain",
+      "ipa": "/kəmˈpleɪn/",
+      "cs": "stěžovat si"
+    },
+    {
+      "word": "copper",
+      "ipa": "/ˈkɒpə(r)/",
+      "cs": "měď"
+    },
+    {
+      "word": "cordless",
+      "ipa": "/ˈkɔːdləs/",
+      "cs": "bezdrátový"
+    },
+    {
+      "word": "credit note",
+      "ipa": "/ˈkredɪt nəʊt/",
+      "cs": "dobropis"
+    },
+    {
+      "word": "curved",
+      "ipa": "/kɜːvd/",
+      "cs": "zakřivený"
+    },
+    {
+      "word": "deaf",
+      "ipa": "/def/",
+      "cs": "hluchý"
+    },
+    {
+      "word": "deafness",
+      "ipa": "/defnəs/",
+      "cs": "hluchota"
+    },
+    {
+      "word": "demonstrate",
+      "ipa": "/ˈdemənstreɪt/",
+      "cs": "předvést"
+    },
+    {
+      "word": "demonstration",
+      "ipa": "/ˌdemənˈstreɪʃn/",
+      "cs": "předvedení"
+    },
+    {
+      "word": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "cs": "popsat"
+    },
+    {
+      "word": "encourage",
+      "ipa": "/ɪnˈkʌrɪdʒ/",
+      "cs": "povzbudit"
+    },
+    {
+      "word": "enquire",
+      "ipa": "/ɪnˈkwaɪə(r)/",
+      "cs": "dotázat se"
+    },
+    {
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "cs": "sklo"
+    },
+    {
+      "word": "gold",
+      "ipa": "/ɡəʊld/",
+      "cs": "zlato"
+    },
+    {
+      "word": "handle",
+      "ipa": "/ˈhændl/",
+      "cs": "rukojeť"
+    },
+    {
+      "word": "inform",
+      "ipa": "/ɪnˈfɔːm/",
+      "cs": "informovat"
+    },
+    {
+      "word": "invent",
+      "ipa": "/ɪnˈvent/",
+      "cs": "vynalézt"
+    },
+    {
+      "word": "invention",
+      "ipa": "/ɪnˈvenʃn/",
+      "cs": "vynález"
+    },
+    {
+      "word": "inventor",
+      "ipa": "/ɪnˈventə(r)/",
+      "cs": "vynálezce"
+    },
+    {
+      "word": "iron",
+      "ipa": "/ˈaɪən/",
+      "cs": "železo"
+    },
+    {
+      "word": "leather",
+      "ipa": "/ˈleðə(r)/",
+      "cs": "kůže"
+    },
+    {
+      "word": "lid",
+      "ipa": "/lɪd/",
+      "cs": "víčko"
+    },
+    {
+      "word": "mains",
+      "ipa": "/meɪnz/",
+      "cs": "elektrická síť"
+    },
+    {
+      "word": "move",
+      "ipa": "/muːv/",
+      "cs": "hýbat se"
+    },
+    {
+      "word": "movement",
+      "ipa": "/ˈmuːvmənt/",
+      "cs": "pohyb"
+    },
+    {
+      "word": "nylon",
+      "ipa": "/ˈnaɪlɒn/",
+      "cs": "nylon"
+    },
+    {
+      "word": "paper",
+      "ipa": "/ˈpeɪpə(r)/",
+      "cs": "papír"
+    },
+    {
+      "word": "persuade",
+      "ipa": "/pəˈsweɪd/",
+      "cs": "přesvědčit"
+    },
+    {
+      "word": "plastic",
+      "ipa": "/ˈplæstɪk/",
+      "cs": "plast"
+    },
+    {
+      "word": "problem",
+      "ipa": "/ˈprɒbləm/",
+      "cs": "problém"
+    },
+    {
+      "word": "rechargeable",
+      "ipa": "/ˌriːˈtʃɑːdʒəbl/",
+      "cs": "dobíjecí"
+    },
+    {
+      "word": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "cs": "doporučit"
+    },
+    {
+      "word": "reconstruct",
+      "ipa": "/ˌriːkənˈstrʌkt/",
+      "cs": "rekonstruovat"
+    },
+    {
+      "word": "reconstruction",
+      "ipa": "/ˌriːkənˈstrʌkʃn/",
+      "cs": "rekonstrukce"
+    },
+    {
+      "word": "record",
+      "ipa": "/rɪˈkɔːd/",
+      "cs": "nahrát"
+    },
+    {
+      "word": "recording",
+      "ipa": "/rɪˈkɔːdɪŋ/",
+      "cs": "nahrávka"
+    },
+    {
+      "word": "rectangular",
+      "ipa": "/rekˈtæŋɡjələ(r)/",
+      "cs": "obdélníkový"
+    },
+    {
+      "word": "rediscover",
+      "ipa": "/ˌriːdɪˈskʌvə(r)/",
+      "cs": "znovu objevit"
+    },
+    {
+      "word": "rediscovery",
+      "ipa": "/ˌriːdɪˈskʌvəri/",
+      "cs": "znovuobjevení"
+    },
+    {
+      "word": "repair",
+      "ipa": "/rɪˈpeə(r)/",
+      "cs": "oprava / opravit"
+    },
+    {
+      "word": "rubber",
+      "ipa": "/ˈrʌbə(r)/",
+      "cs": "guma"
+    },
+    {
+      "word": "solar-powered",
+      "ipa": "/ˌsəʊlə(r) ˈpaʊəd/",
+      "cs": "napájený sluneční energií"
+    },
+    {
+      "word": "spherical",
+      "ipa": "/ˈsferɪkl/",
+      "cs": "kulovitý"
+    },
+    {
+      "word": "square",
+      "ipa": "/skweə(r)/",
+      "cs": "čtvercový"
+    },
+    {
+      "word": "steel",
+      "ipa": "/stiːl/",
+      "cs": "ocel"
+    },
+    {
+      "word": "stone",
+      "ipa": "/stəʊn/",
+      "cs": "kámen"
+    },
+    {
+      "word": "tell a story",
+      "ipa": "/tel ə ˈstɔːri/",
+      "cs": "vyprávět příběh"
+    },
+    {
+      "word": "thank",
+      "ipa": "/θæŋk/",
+      "cs": "poděkovat"
+    },
+    {
+      "word": "treat",
+      "ipa": "/triːt/",
+      "cs": "léčit"
+    },
+    {
+      "word": "treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "cs": "léčba"
+    },
+    {
+      "word": "triangular",
+      "ipa": "/traɪˈæŋɡjələ(r)/",
+      "cs": "trojúhelníkový"
+    },
+    {
+      "word": "warn",
+      "ipa": "/wɔːn/",
+      "cs": "varovat"
+    },
+    {
+      "word": "welcome",
+      "ipa": "/ˈwelkəm/",
+      "cs": "přivítat"
+    },
+    {
+      "word": "wheels",
+      "ipa": "/wiːlz/",
+      "cs": "kola"
+    },
+    {
+      "word": "wood",
+      "ipa": "/wʊd/",
+      "cs": "dřevo"
+    }
+  ]
+}
