@@ -10,10 +10,9 @@
   const screenEl = document.getElementById('screen');
   const titleEl  = document.getElementById('appbarTitle');
   const backBtn  = document.getElementById('backBtn');
-  const tabEls   = Array.from(document.querySelectorAll('.tab'));
 
   // ---- data ----
-  const DATA = { vocab: null, grammar: null };
+  const DATA = { vocab: null };
 
   // ---- persistence ----
   const KNOWN_KEY = 'mile.known.v1';
@@ -63,19 +62,6 @@
       u.rate = 0.9;
       speechSynthesis.speak(u);
     } catch (_) {}
-  }
-
-  // ---- tabs ----
-  let tab = 'vocab';
-  tabEls.forEach(t => t.addEventListener('click', () => switchTab(t.dataset.tab)));
-  function switchTab(name) {
-    tab = name;
-    tabEls.forEach(t => {
-      const on = t.dataset.tab === name;
-      t.classList.toggle('is-active', on);
-      t.setAttribute('aria-selected', String(on));
-    });
-    name === 'vocab' ? showUnits() : showGrammar();
   }
 
   /* =========================================================
@@ -258,114 +244,14 @@
   });
 
   /* =========================================================
-     GRAMMAR
-     ========================================================= */
-  function showGrammar() {
-    setBack(null);
-    titleEl.textContent = 'Grammar';
-    let html = `<div class="fade-in">
-      <p class="intro">Short, simple lessons with examples in English and Czech.</p>
-      <div class="list">`;
-    DATA.grammar.forEach(l => {
-      html += `<button class="card" data-lesson="${esc(l.id)}">
-        <span class="card__badge card__badge--emoji">${l.icon || '📘'}</span>
-        <span class="card__body">
-          <span class="card__title">${esc(l.title)}</span>
-          <span class="card__meta">${esc(l.summary || '')}</span>
-        </span>
-        <span class="card__chevron">${ICON.chevRSmall}</span>
-      </button>`;
-    });
-    html += `</div><div class="spacer-bottom"></div></div>`;
-    render(html);
-    screenEl.querySelectorAll('[data-lesson]').forEach(c =>
-      c.addEventListener('click', () => openLesson(c.dataset.lesson)));
-  }
-
-  function openLesson(id) {
-    const l = DATA.grammar.find(x => x.id === id);
-    if (!l) return;
-    setBack(showGrammar);
-    titleEl.textContent = l.title;
-
-    let html = `<div class="lesson fade-in">`;
-    if (l.lead) html += `<p class="lesson__lead">${esc(l.lead)}</p>`;
-    (l.blocks || []).forEach(b => {
-      if (b.type === 'rule') {
-        if (b.heading) html += `<h2>${esc(b.heading)}</h2>`;
-        if (b.text) html += `<p class="rule">${b.text}</p>`; // text may contain safe <b>
-      } else if (b.type === 'formula') {
-        html += `<div class="formula">${b.text}</div>`;
-      } else if (b.type === 'examples') {
-        html += `<ul class="examples">`;
-        b.items.forEach(it => html += `<li><div class="en">${it.en}</div><div class="cs">${esc(it.cs)}</div></li>`);
-        html += `</ul>`;
-      } else if (b.type === 'tip') {
-        html += `<div class="tip">${b.text}</div>`;
-      }
-    });
-
-    // interactive multiple-choice exercises
-    const ex = l.exercises || [];
-    if (ex.length) {
-      html += `<div class="quiz"><h2 class="quiz__title">Cvičení</h2>`;
-      ex.forEach((q, qi) => {
-        html += `<div class="quiz__item" data-q="${qi}">
-          <p class="quiz__q">${q.q}</p>
-          <div class="quiz__opts">${
-            q.options.map((o, oi) => `<button class="opt" data-opt="${oi}">${esc(o)}</button>`).join('')
-          }</div>
-          <p class="quiz__fb" hidden></p>
-        </div>`;
-      });
-      html += `<p class="quiz__score" id="quizScore" hidden></p></div>`;
-    }
-
-    html += `</div><div class="spacer-bottom"></div>`;
-    render(html);
-
-    // wire up exercises
-    let answered = 0, correct = 0;
-    screenEl.querySelectorAll('.quiz__item').forEach(item => {
-      const q = ex[+item.dataset.q];
-      const fb = item.querySelector('.quiz__fb');
-      const opts = item.querySelectorAll('.opt');
-      opts.forEach(btn => btn.addEventListener('click', () => {
-        if (item.classList.contains('answered')) return;
-        item.classList.add('answered');
-        const chosen = +btn.dataset.opt;
-        opts[q.answer].classList.add('is-correct');
-        if (chosen === q.answer) {
-          correct++;
-          fb.textContent = 'Správně! ' + (q.explain || '');
-          fb.className = 'quiz__fb good';
-        } else {
-          btn.classList.add('is-wrong');
-          fb.textContent = 'Špatně. Správně je „' + q.options[q.answer] + '“. ' + (q.explain || '');
-          fb.className = 'quiz__fb bad';
-        }
-        fb.hidden = false;
-        if (++answered === ex.length) {
-          const s = document.getElementById('quizScore');
-          s.textContent = `Výsledek: ${correct} / ${ex.length} správně` + (correct === ex.length ? ' 🎉' : '');
-          s.hidden = false;
-        }
-      }));
-    });
-  }
-
-  /* =========================================================
      INIT
      ========================================================= */
   async function init() {
     try {
-      const [v, g] = await Promise.all([
-        fetch('flashcards.json').then(r => { if (!r.ok) throw 0; return r.json(); }),
-        fetch('grammar.json').then(r => { if (!r.ok) throw 0; return r.json(); })
-      ]);
-      DATA.vocab = v;
-      DATA.grammar = g;
-      switchTab('vocab');
+      const r = await fetch('flashcards.json');
+      if (!r.ok) throw 0;
+      DATA.vocab = await r.json();
+      showUnits();
     } catch (e) {
       render(`<div class="error">Couldn't load the lessons.<br><br>
         Please open this app through a web address (http/https), not by double-clicking the file.</div>`);
