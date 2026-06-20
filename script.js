@@ -10,6 +10,7 @@
   const screenEl = document.getElementById('screen');
   const titleEl  = document.getElementById('appbarTitle');
   const backBtn  = document.getElementById('backBtn');
+  const tabEls   = Array.from(document.querySelectorAll('.tab'));
 
   // ---- data ----
   const DATA = { vocab: null };
@@ -51,6 +52,20 @@
     backBtn.hidden = !handler;
   }
   backBtn.addEventListener('click', () => backHandler && backHandler());
+
+  // ---- tabs ----
+  let activeTab = 'vocab';
+  tabEls.forEach(t => t.addEventListener('click', () => switchTab(t.dataset.tab)));
+  function switchTab(name) {
+    activeTab = name;
+    tabEls.forEach(t => {
+      const on = t.dataset.tab === name;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-selected', String(on));
+    });
+    if (name === 'vocab') showUnits();
+    else showQuizUnits();
+  }
 
   // ---- speech ----
   function speak(text) {
@@ -244,6 +259,125 @@
   });
 
   /* =========================================================
+     QUIZ
+     ========================================================= */
+  let quiz = null;
+
+  function showQuizUnits() {
+    setBack(null);
+    titleEl.textContent = 'Quiz';
+    const units = Object.entries(DATA.vocab);
+    const total = units.reduce((s, [, w]) => s + w.length, 0);
+
+    let html = `<div class="fade-in">
+      <p class="intro">${total} words across ${units.length} units. Pick a unit to test yourself — 4 choices per question.</p>
+      <div class="list">`;
+    for (const [name, words] of units) {
+      html += `<button class="card" data-quiz-unit="${esc(name)}">
+        <span class="card__badge">${esc(unitShort(name))}</span>
+        <span class="card__body">
+          <span class="card__title">${esc(name)}</span>
+          <span class="card__meta">${words.length} words</span>
+        </span>
+        <span class="card__chevron">${ICON.chevRSmall}</span>
+      </button>`;
+    }
+    html += `</div><div class="spacer-bottom"></div></div>`;
+    render(html);
+    screenEl.querySelectorAll('[data-quiz-unit]').forEach(c =>
+      c.addEventListener('click', () => openQuiz(c.dataset.quizUnit)));
+  }
+
+  function openQuiz(unit) {
+    const words = DATA.vocab[unit];
+    const allWords = Object.values(DATA.vocab).flat();
+    const deck = shuffleArr(words);
+    const questions = deck.map(w => {
+      const pool = allWords.filter(x => x.cs !== w.cs);
+      const wrong = shuffleArr(pool).slice(0, 3).map(x => x.cs);
+      const options = shuffleArr([w.cs, ...wrong]);
+      return { word: w.word, ipa: w.ipa || '', correct: w.cs, options };
+    });
+    quiz = { unit, questions, pos: 0, score: 0, answered: false };
+    renderQuizQ();
+  }
+
+  function renderQuizQ() {
+    setBack(showQuizUnits);
+    const q = quiz.questions[quiz.pos];
+    const total = quiz.questions.length;
+    const isLast = quiz.pos + 1 === total;
+    titleEl.textContent = quiz.unit;
+
+    render(`<div class="quiz-session fade-in">
+      <div class="study__top">
+        <span class="progress-pill">${quiz.pos + 1} / ${total}</span>
+      </div>
+      <div class="bar"><div class="bar__fill" id="barFill"></div></div>
+      <div class="qz-card">
+        <span class="face__tag">English</span>
+        <div class="qz-word">${esc(q.word)}</div>
+        ${q.ipa ? `<div class="face__ipa">${esc(q.ipa)}</div>` : ''}
+      </div>
+      <p class="qz-prompt">Choose the Czech translation:</p>
+      <div class="quiz__opts" id="qzOpts">
+        ${q.options.map((o, i) => `<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}
+      </div>
+      <p class="quiz__fb" id="qzFb" hidden></p>
+      <button class="flip-btn qz-next" id="qzNext" hidden>${isLast ? 'See results' : 'Next →'}</button>
+    </div><div class="spacer-bottom"></div>`);
+
+    document.getElementById('barFill').style.width = ((quiz.pos + 1) / total * 100) + '%';
+
+    const opts = screenEl.querySelectorAll('.opt');
+    const fb   = document.getElementById('qzFb');
+    const next = document.getElementById('qzNext');
+    const correctIdx = q.options.indexOf(q.correct);
+
+    opts.forEach(btn => btn.addEventListener('click', () => {
+      if (quiz.answered) return;
+      quiz.answered = true;
+      const chosen = +btn.dataset.i;
+      opts[correctIdx].classList.add('is-correct');
+      if (chosen === correctIdx) {
+        quiz.score++;
+        fb.textContent = 'Správně! ✓';
+        fb.className = 'quiz__fb good';
+      } else {
+        btn.classList.add('is-wrong');
+        fb.textContent = 'Špatně — správně: „' + q.correct + '“';
+        fb.className = 'quiz__fb bad';
+      }
+      fb.hidden = false;
+      next.hidden = false;
+    }));
+
+    next.addEventListener('click', () => {
+      quiz.pos++;
+      quiz.answered = false;
+      if (quiz.pos < quiz.questions.length) renderQuizQ();
+      else showQuizResults();
+    });
+  }
+
+  function showQuizResults() {
+    setBack(showQuizUnits);
+    titleEl.textContent = quiz.unit;
+    const total = quiz.questions.length;
+    const pct = Math.round(quiz.score / total * 100);
+    const msg = pct === 100 ? 'Perfektní! 🎉' : pct >= 70 ? 'Výborně! 👏' : 'Zkus to znovu! 💪';
+
+    render(`<div class="qz-results fade-in">
+      <div class="qz-ring">${ring(pct)}</div>
+      <p class="qz-score">${quiz.score} / ${total} správně</p>
+      <p class="qz-msg">${esc(msg)}</p>
+      <button class="flip-btn qz-retry" id="retryBtn">Try Again</button>
+    </div><div class="spacer-bottom"></div>`);
+
+    document.getElementById('retryBtn').addEventListener('click', () => openQuiz(quiz.unit));
+  }
+
+  /* =========================================================
      INIT
      ========================================================= */
   async function init() {
@@ -251,7 +385,7 @@
       const r = await fetch('flashcards.json');
       if (!r.ok) throw 0;
       DATA.vocab = await r.json();
-      showUnits();
+      switchTab('vocab');
     } catch (e) {
       render(`<div class="error">Couldn't load the lessons.<br><br>
         Please open this app through a web address (http/https), not by double-clicking the file.</div>`);

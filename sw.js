@@ -1,5 +1,5 @@
 /* Service worker — offline support for "Mum is learning English" */
-const CACHE = 'mile-v1';
+const CACHE = 'mile-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -7,7 +7,6 @@ const ASSETS = [
   './script.js',
   './manifest.json',
   './flashcards.json',
-  './grammar.json',
   './app%20icon.png'
 ];
 

@@ -1,7 +1,7 @@
 {
   "name": "Mum is learning English",
   "short_name": "English",
-  "description": "Vocabulary and grammar practice for learning English.",
+  "description": "Vocabulary flashcards and quiz practice for learning English.",
   "lang": "en",
   "start_url": "./index.html",
   "scope": "./",
