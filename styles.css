@@ -281,13 +281,13 @@ button { font-family: inherit; color: inherit; cursor: pointer; border: none; ba
   flex: 1;
   display: flex;
   align-items: center;
-  min-height: 320px;
+  min-height: 200px;
 }
 .flash__inner {
   position: relative;
   width: 100%;
   aspect-ratio: 5 / 6;
-  max-height: 60vh;
+  max-height: 40vh;
   transform-style: preserve-3d;
   transition: transform .5s cubic-bezier(.4,.05,.2,1);
 }
@@ -303,8 +303,8 @@ button { font-family: inherit; color: inherit; cursor: pointer; border: none; ba
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 28px;
-  border-radius: 30px;
+  padding: 14px;
+  border-radius: 18px;
   background: var(--surface);
   box-shadow: var(--shadow-lg);
 }
@@ -437,108 +437,6 @@ button { font-family: inherit; color: inherit; cursor: pointer; border: none; ba
 .wordrow__cs { color: var(--ink-soft); font-size: .92rem; text-align: right; }
 .wordrow__speak { flex: none; color: var(--pink-300); padding: 6px; }
 
-/* ===========================================================
-   Grammar — lesson
-   =========================================================== */
-.lesson { display: flex; flex-direction: column; gap: 4px; }
-.lesson__lead {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: var(--ink);
-  background: var(--pink-50);
-  border-radius: var(--r-md);
-  padding: 14px 16px;
-  margin-bottom: 8px;
-}
-.lesson h2 {
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 1.22rem;
-  margin: 22px 2px 8px;
-}
-.lesson p.rule { margin: 0 2px 6px; line-height: 1.55; }
-.lesson .formula {
-  display: inline-block;
-  font-weight: 600;
-  color: var(--pink-600);
-  background: var(--pink-100);
-  border-radius: 10px;
-  padding: 6px 12px;
-  margin: 4px 2px 8px;
-  font-size: .95rem;
-}
-.examples {
-  list-style: none;
-  margin: 6px 0 4px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.examples li {
-  background: var(--surface);
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-sm);
-  padding: 12px 14px;
-}
-.examples .en { font-weight: 600; }
-.examples .en b { color: var(--pink-600); font-weight: 700; }
-.examples .cs { color: var(--ink-soft); font-size: .9rem; margin-top: 2px; }
-.tip {
-  display: flex;
-  gap: 10px;
-  background: var(--beige);
-  border-radius: var(--r-md);
-  padding: 12px 14px;
-  margin: 10px 0;
-  font-size: .92rem;
-  line-height: 1.5;
-}
-.tip::before { content: "💡"; }
-
-/* ---------- Grammar quiz ---------- */
-.quiz { margin-top: 6px; }
-.quiz__title {
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 1.22rem;
-  margin: 26px 2px 12px;
-}
-.quiz__item {
-  background: var(--surface);
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-sm);
-  padding: 14px 16px;
-  margin-bottom: 12px;
-}
-.quiz__q { margin: 0 0 12px; font-weight: 600; line-height: 1.5; }
-.quiz__opts { display: flex; flex-direction: column; gap: 8px; }
-.opt {
-  text-align: left;
-  padding: 11px 14px;
-  border-radius: 12px;
-  background: var(--pink-50);
-  font-size: .95rem;
-  font-weight: 500;
-  color: var(--ink);
-  transition: background .15s ease, color .15s ease, transform .1s ease;
-}
-.opt:active { transform: scale(.985); }
-.quiz__item.answered .opt { cursor: default; }
-.opt.is-correct { background: var(--good-bg); color: var(--good); font-weight: 700; }
-.opt.is-wrong   { background: var(--bad-bg);  color: var(--bad); }
-.quiz__fb { margin: 11px 2px 0; font-size: .87rem; line-height: 1.45; }
-.quiz__fb.good { color: var(--good); }
-.quiz__fb.bad  { color: var(--bad); }
-.quiz__score {
-  text-align: center;
-  font-weight: 700;
-  color: var(--pink-600);
-  background: var(--pink-100);
-  border-radius: var(--r-md);
-  padding: 13px;
-  margin: 4px 0 0;
-}
 
 /* ===========================================================
    Quiz session
@@ -612,6 +510,68 @@ button { font-family: inherit; color: inherit; cursor: pointer; border: none; ba
   line-height: 1.6;
 }
 .spacer-bottom { height: 12px; }
+
+/* ===========================================================
+   Fill-in-the-blank (grammar)
+   =========================================================== */
+.fill-session { display: flex; flex-direction: column; }
+
+.fill-card {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-lg);
+  padding: 28px 24px;
+  margin: 8px 0 20px;
+  text-align: center;
+}
+
+.fill-sentence {
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 6vw, 1.9rem);
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+
+.fill-blank {
+  display: inline-block;
+  min-width: 56px;
+  border-bottom: 3px solid var(--pink-400);
+  color: var(--pink-600);
+  font-weight: 700;
+  padding: 0 4px;
+}
+.fill-blank.is-correct { color: var(--good); border-color: var(--good); }
+.fill-blank.is-wrong   { color: var(--bad);  border-color: var(--bad); }
+
+.fill-cs {
+  font-size: .92rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.fill-opts {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 4px 0;
+}
+
+.fill-btn {
+  flex: 1;
+  max-width: 100px;
+  padding: 14px 10px;
+  border-radius: 14px;
+  background: var(--pink-50);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink);
+  transition: background .15s ease, color .15s ease, transform .1s ease;
+}
+.fill-btn:active { transform: scale(.97); }
+.fill-btn.is-correct { background: var(--good-bg); color: var(--good); }
+.fill-btn.is-wrong   { background: var(--bad-bg);  color: var(--bad); }
+
+.fill-why { font-style: italic; opacity: .85; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }

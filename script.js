@@ -64,7 +64,8 @@
       t.setAttribute('aria-selected', String(on));
     });
     if (name === 'vocab') showUnits();
-    else showQuizUnits();
+    else if (name === 'quiz') showQuizUnits();
+    else showGrammarHome();
   }
 
   // ---- speech ----
@@ -375,6 +376,139 @@
     </div><div class="spacer-bottom"></div>`);
 
     document.getElementById('retryBtn').addEventListener('click', () => openQuiz(quiz.unit));
+  }
+
+  /* =========================================================
+     GRAMMAR — fill in the blank (verb to be)
+     ========================================================= */
+  const FILL_IN_SENTENCES = [
+    { sentence: "I ___ happy.",                   answer: "am",  cs: "Jsem šťastná.",              why: "S 'I' (já) používáme vždy 'am'." },
+    { sentence: "She ___ a teacher.",             answer: "is",  cs: "Ona je učitelka.",            why: "S 'she' (ona) používáme 'is'." },
+    { sentence: "They ___ from London.",          answer: "are", cs: "Jsou z Londýna.",             why: "S 'they' (oni/ony) používáme 'are'." },
+    { sentence: "He ___ my brother.",             answer: "is",  cs: "On je můj bratr.",            why: "S 'he' (on) používáme 'is'." },
+    { sentence: "We ___ students.",               answer: "are", cs: "Jsme studenti.",              why: "S 'we' (my) používáme 'are'." },
+    { sentence: "It ___ cold today.",             answer: "is",  cs: "Dnes je zima.",               why: "S 'it' (ono/to) používáme 'is'." },
+    { sentence: "You ___ very kind.",             answer: "are", cs: "Jsi velmi laskavá.",          why: "S 'you' (ty/vy) používáme 'are'." },
+    { sentence: "I ___ at home.",                 answer: "am",  cs: "Jsem doma.",                  why: "S 'I' (já) používáme vždy 'am'." },
+    { sentence: "The dog ___ small.",             answer: "is",  cs: "Pes je malý.",                why: "Pes (the dog) je jedna věc/zvíře → 'is'." },
+    { sentence: "My parents ___ in Prague.",      answer: "are", cs: "Moji rodiče jsou v Praze.",   why: "Rodiče (parents) je množné číslo → 'are'." },
+    { sentence: "Tom and Jana ___ friends.",      answer: "are", cs: "Tom a Jana jsou přátelé.",    why: "Dvě osoby dohromady jsou množné číslo → 'are'." },
+    { sentence: "The book ___ on the table.",     answer: "is",  cs: "Kniha je na stole.",          why: "Kniha (the book) je jedna věc → 'is'." },
+    { sentence: "I ___ from the Czech Republic.", answer: "am",  cs: "Jsem z České republiky.",     why: "S 'I' (já) používáme vždy 'am'." },
+    { sentence: "You ___ right.",                 answer: "are", cs: "Máš pravdu.",                 why: "S 'you' (ty/vy) používáme 'are'." },
+    { sentence: "My cat ___ very lazy.",          answer: "is",  cs: "Moje kočka je velmi líná.",   why: "Kočka (my cat) je jedna věc/zvíře → 'is'." },
+    { sentence: "We ___ in the garden.",          answer: "are", cs: "Jsme na zahradě.",            why: "S 'we' (my) používáme 'are'." },
+    { sentence: "The children ___ tired.",        answer: "are", cs: "Děti jsou unavené.",          why: "Děti (children) je množné číslo → 'are'." },
+    { sentence: "He ___ a doctor.",               answer: "is",  cs: "On je doktor.",               why: "S 'he' (on) používáme 'is'." },
+    { sentence: "I ___ thirty years old.",        answer: "am",  cs: "Je mi třicet let.",           why: "S 'I' (já) používáme vždy 'am'." },
+    { sentence: "The windows ___ open.",          answer: "are", cs: "Okna jsou otevřená.",         why: "Okna (windows) je množné číslo → 'are'." },
+  ];
+
+  let fillIn = null;
+
+  function showGrammarHome() {
+    setBack(null);
+    titleEl.textContent = 'Grammar';
+    render(`<div class="fade-in">
+      <p class="intro">Doplňuj správný tvar slovesa <em>to be</em> do vět.</p>
+      <div class="list">
+        <button class="card" id="startFillIn">
+          <span class="card__badge">BE</span>
+          <span class="card__body">
+            <span class="card__title">Sloveso „to be"</span>
+            <span class="card__meta">am / is / are · ${FILL_IN_SENTENCES.length} vět</span>
+          </span>
+          <span class="card__chevron">${ICON.chevRSmall}</span>
+        </button>
+      </div>
+      <div class="spacer-bottom"></div>
+    </div>`);
+    document.getElementById('startFillIn').addEventListener('click', openFillIn);
+  }
+
+  function openFillIn() {
+    fillIn = { sentences: shuffleArr(FILL_IN_SENTENCES), pos: 0, score: 0, answered: false };
+    renderFillIn();
+  }
+
+  function renderFillIn() {
+    setBack(showGrammarHome);
+    titleEl.textContent = 'Sloveso „to be"';
+    const q = fillIn.sentences[fillIn.pos];
+    const total = fillIn.sentences.length;
+    const isLast = fillIn.pos + 1 === total;
+    const sentenceHtml = esc(q.sentence).replace('___', '<span class="fill-blank" id="fillBlank">___</span>');
+
+    render(`<div class="fill-session fade-in">
+      <div class="study__top">
+        <span class="progress-pill">${fillIn.pos + 1} / ${total}</span>
+      </div>
+      <div class="bar"><div class="bar__fill" id="barFill"></div></div>
+      <div class="fill-card">
+        <p class="fill-sentence">${sentenceHtml}</p>
+        <p class="fill-cs">${esc(q.cs)}</p>
+      </div>
+      <div class="fill-opts" id="fillOpts">
+        <button class="fill-btn" data-val="am">am</button>
+        <button class="fill-btn" data-val="is">is</button>
+        <button class="fill-btn" data-val="are">are</button>
+      </div>
+      <p class="quiz__fb" id="fillFb" hidden></p>
+      <button class="flip-btn qz-next" id="fillNext" hidden>${isLast ? 'See results' : 'Next →'}</button>
+    </div><div class="spacer-bottom"></div>`);
+
+    document.getElementById('barFill').style.width = ((fillIn.pos + 1) / total * 100) + '%';
+
+    const opts = screenEl.querySelectorAll('.fill-btn');
+    const fb   = document.getElementById('fillFb');
+    const next = document.getElementById('fillNext');
+    const blank = document.getElementById('fillBlank');
+
+    opts.forEach(btn => btn.addEventListener('click', () => {
+      if (fillIn.answered) return;
+      fillIn.answered = true;
+      const chosen = btn.dataset.val;
+      blank.textContent = chosen;
+      if (chosen === q.answer) {
+        fillIn.score++;
+        blank.className = 'fill-blank is-correct';
+        fb.textContent = 'Správně! ✓';
+        fb.className = 'quiz__fb good';
+        btn.classList.add('is-correct');
+      } else {
+        blank.className = 'fill-blank is-wrong';
+        btn.classList.add('is-wrong');
+        opts.forEach(b => { if (b.dataset.val === q.answer) b.classList.add('is-correct'); });
+        fb.innerHTML = 'Špatně — správně je <strong>' + q.answer + '</strong>.<br><span class="fill-why">' + esc(q.why) + '</span>';
+        fb.className = 'quiz__fb bad';
+      }
+      fb.hidden = false;
+      next.hidden = false;
+    }));
+
+    next.addEventListener('click', () => {
+      fillIn.pos++;
+      fillIn.answered = false;
+      if (fillIn.pos < fillIn.sentences.length) renderFillIn();
+      else showFillInResults();
+    });
+  }
+
+  function showFillInResults() {
+    setBack(showGrammarHome);
+    titleEl.textContent = 'Sloveso „to be"';
+    const total = fillIn.sentences.length;
+    const pct = Math.round(fillIn.score / total * 100);
+    const msg = pct === 100 ? 'Perfektní! 🎉' : pct >= 70 ? 'Výborně! 👏' : 'Zkus to znovu! 💪';
+
+    render(`<div class="qz-results fade-in">
+      <div class="qz-ring">${ring(pct)}</div>
+      <p class="qz-score">${fillIn.score} / ${total} správně</p>
+      <p class="qz-msg">${esc(msg)}</p>
+      <button class="flip-btn qz-retry" id="retryBtn">Try Again</button>
+    </div><div class="spacer-bottom"></div>`);
+
+    document.getElementById('retryBtn').addEventListener('click', openFillIn);
   }
 
   /* =========================================================
